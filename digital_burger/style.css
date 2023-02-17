@@ -1,19 +1,31 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.banner{
-    width: 99%;
-    border-radius: 2px;
-    margin-top: 1vh;
-
-
-    -webkit-box-shadow: -4px 4px 11px 3px rgba(217,189,217,1);
-    -moz-box-shadow: -4px 4px 11px 3px rgba(217,189,217,1);
-    box-shadow: -4px 4px 11px 3px rgba(217,189,217,1);
+body{
+    background-color: #EDE7E2;
 }
-figure{
+.header-banner{
     display: flex;
+    padding-top: 10px;
     justify-content: center;
 }
+.banner-logo{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 90px;
+
+}
+.social-icons{
+    
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 163vh;
+    top: 15vh;
+    size-adjust: 30%;
+}
+/* .social-icons image{
+    ;
+} */
