@@ -1,4 +1,4 @@
-@import url(./reset.css);
+@import url("./reset.css");
 
 .header-banner{
     display: flex;
@@ -12,7 +12,6 @@
 
 }
 .social-icons{
-    
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -20,6 +19,7 @@
     top: 15vh;
     size-adjust: 30%;
 }
+
 .row .col{
     text-align: center;
     justify-content: space-between;
@@ -27,8 +27,14 @@
 
 .row .col img{
     width: 70%;
+    transition: transform 0.3s ease-in-out;
 }
-    /* .categories{
+
+.row .col img:hover {
+    transform: scale(1.1);
+}
+   
+/* .categories{
     display: flex;
     justify-content: space-between;
     align-items: center;
