@@ -28,9 +28,13 @@ body{
 }
 .row .col{
     text-align: center;
-    size-adjust: 25%;
+    justify-content: space-between;
 }
-/* .categories{
+
+.row .col img{
+    width: 70%;
+}
+    /* .categories{
     display: flex;
     justify-content: space-between;
     align-items: center;
