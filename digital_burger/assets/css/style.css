@@ -1,0 +1,59 @@
+@import url(reset.css);
+
+.db-footer {
+    padding: 0 10px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.db-footer img {
+    width: 150px;
+}
+
+.db-footer p {
+    margin-bottom: 20px;
+}
+
+.db-footer h2 {
+    font-size: 14px;
+}
+
+.db-footer span {
+    color: var(--bg2-color);
+}
+
+.db-footer div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.db-footer div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 30px;
+}
+
+.db-footer div:nth-child(2) input { 
+    width: 40%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.db-footer div:last-child {
+    font-size: 14px;
+    padding: 5px 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
