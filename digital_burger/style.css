@@ -26,6 +26,20 @@ body{
     top: 15vh;
     size-adjust: 30%;
 }
+.row .col{
+    text-align: center;
+    size-adjust: 25%;
+}
+/* .categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.categories div{
+    width: 100px;
+
+} */
 /* .social-icons image{
     ;
 } */
