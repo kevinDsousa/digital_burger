@@ -34,6 +34,54 @@
     transform: scale(1.1);
 }
 
+/*Produtos*/
+
+.food {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: 0.1s ease-in-out;
+}
+
+.food:hover {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.301);
+    border-radius: 20px;
+    transform: scale(1.1);
+}
+
+
+.food .details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.food .details-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.food .details-text p {
+    font-size: 10 px;
+}
+
+.food .details-text ul {
+    display: flex;
+    gap: 5px;
+    padding-left: initial;
+}
+
+/*Footer*/
+
 .footer {
     display: flex;
     align-items: center;
