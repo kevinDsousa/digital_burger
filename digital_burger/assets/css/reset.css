@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Tilt+Warp&display=swap');
 
 *{
     padding: 0;
@@ -11,6 +13,9 @@
 
 :root {
     --font-text : 'Inter', sans-serif;
+    --font-text2: 'Roboto Condensed', sans-serif;
+    --font-title: 'Roboto Condensed', sans-serif;
+    --font-title2: 'Tilt Warp', cursive;
     --text-color: #fff;
     --bg-color: #252525;
     --bg2-color: #FF8233;
