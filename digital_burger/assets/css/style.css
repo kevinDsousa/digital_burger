@@ -47,6 +47,7 @@
     display: flex;
     align-items: start;
     justify-content: center;
+    width: 600px;
     height: 260px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
