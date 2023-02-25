@@ -1,8 +1,8 @@
-let go = document.querySelector("#golang");
-let goHtml = (`
+let python = document.querySelector("#python");
+let pyHtml = (`
     <div class="content">
         <div class="pictures">
-            <img src="./assets/images/burgers/eduardo-burger.jpg" alt="">
+            <img src="./assets/images/burgers/bruno-burger.jpg" alt="">
             <div class="components">
                 <ul>
                     <li><img src="https://www.linkpicture.com/q/egg_1.png"></img></li>
@@ -12,9 +12,9 @@ let goHtml = (`
             </div>
         </div>
         <div class="pictures-text">
-            <h2>Go Burger</h2>
+            <h2>Python Burger</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, ad cum. Libero illum inventore beatae modi quas, totam dolorum mollitia, optio perspiciatis obcaecati recusandae, repellendus consectetur dignissimos numquam. Commodi, quisquam.</p>
         </div>
     </div>`)
 
-go.innerHTML = goHtml;
+python.innerHTML = pyHtml;
