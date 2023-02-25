@@ -31,10 +31,3 @@ Em construcao
 Catalógo de produtos separados por categorias, permitindo que o cliente possa ter o conforto visual e praticidade na hora de solicitar seu pedido.
 Contém tambem opções de escolhas para alergicos onde o cliente pode detalhar cada produto e o modo de seu preparo.
 
-## :dancers: Participantes
-<div style="width: 250px; display: flex;">
-  <a href="https://github.com/ursarah"><img src="https://github.com/ursarah.png" alt="Sara"/></a>
-  <a href="https://github.com/KevinDik"><img src="https://github.com/KevinDik.png" alt="Kevin"></a>
-  <a href="https://github.com/LuccasVieira"><img src="https://github.com/LuccasVieira.png" alt="Luccas"></a>
-  <a href="https://github.com/eduardoliveirap"><img src="https://github.com/eduardoliveirap.png" alt="Eduardo"></a>
-</div>
