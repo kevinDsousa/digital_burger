@@ -36,64 +36,58 @@
 
 /*Produtos*/
 
-.food {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    transition: 0.1s ease-in-out;
+.burgers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.food:hover {
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.301);
-    border-radius: 20px;
-    transform: scale(1.1);
-}
-
-
-.food .details img {
-    width: 180px;
-    height: 180px;
-    border-radius: 40px;
+.content {
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 260px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
 }
 
-.food .details-text {
+.content .pictures img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.components ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.pictures .components ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+.content .pictures-text {
+    width: 50%;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
-.food .details-text h3 {
-    font-family: var(--font-title1);
-}
-
-.food .details-text p {
-    font-size: 10 px;
-    color: var(--title-color)
-}
-
-.food .details-text p span {
-    font-family: var(--font-title2);
+.content .pictures-text h2 {
+    font-weight: bold;
     font-size: 20px;
-    color: var(--bg-color)
+    margin: 0;
+    padding-bottom: 5px;
 }
 
-.food .details-text ul {
-    display: flex;
-    gap: 5px;
-    padding-left: initial;
-}
-
-.details-text ul li img {
-    width: 30px;
-    padding-bottom: 20px;
+.content .pictures-text p {
+    font-size: 12px;
 }
 
 /*Footer*/
