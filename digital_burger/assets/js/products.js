@@ -1,9 +1,10 @@
-function createProduct(title, description, itens) {
+function createProduct(title, description, itens, components) {
     /** Gera o html dos produtos automagicamente. Para adicionar um novo produto, basta criar uma função no final deste arquivo passando os parametros solicitados.
      * @function createProduct
      * @param {string} title - Titulo no produto.
      * @param {string} description - Descrição do produto.
      * @param {string} itens - imagem do produto
+     * @param {Array} components - lista de componentes de formacao do item.
      */
     const tag = document.querySelector('#burgers');
     const Html = (`
