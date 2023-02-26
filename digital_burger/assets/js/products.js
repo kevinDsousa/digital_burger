@@ -6,8 +6,8 @@ function createProduct(title, description, itens, components) {
      * @param {string} itens - imagem do produto
      * @param {Array} components - lista de componentes de formacao do item.
      */
-    const tag = document.querySelector('#burgers');
-    const Html = (`
+    const TAG = document.querySelector('#burgers');
+    const HTML = (`
     <div class="content">
         <div class="pictures">
             <img src="./assets/images/burgers/${itens}.jpg" alt="">
@@ -25,9 +25,9 @@ function createProduct(title, description, itens, components) {
         </div>
     </div>`)
     
-    const item = document.createElement('div');
-    item.innerHTML = Html;
-    tag.appendChild(item);    
+    const ITEM = document.createElement('div');
+    ITEM.innerHTML = HTML;
+    TAG.appendChild(ITEM);    
 }
 
 createProduct('python burger', 'teste de descriçao', 'dudu-burger');
