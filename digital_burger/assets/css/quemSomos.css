@@ -1,2 +1,67 @@
 @import url(./reset.css);
 
+:root {
+    --bg-card: #131212;
+}
+
+section {
+    width: 100%;
+}
+
+.about {
+    padding: 40px 20px;
+    font-family: var(--font-text2);
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: var(--text-color);
+    display: flex;
+    background-color: var(--bg-card);
+}
+
+.about p {
+    margin: 10px
+}
+
+.chef {
+    display: flex;
+    margin: 40px;
+}
+
+.title-text {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: var(--title-color);
+    font-size: 30px;
+    margin: 10px 10px 0 40px;
+}
+
+.chef p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.image-chef img {
+    width: 450px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-title2);
+    background-color: var(--bg-card);
+}
+
+.cards p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    width: 50%;
+}
+
+.cards img {
+    width: 50%;
+}
