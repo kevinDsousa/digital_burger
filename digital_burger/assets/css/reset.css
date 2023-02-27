@@ -57,13 +57,14 @@ body {
     width: 40%;
 }
 
-.footer h3 {
+.footer .footer-content h3 {
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.700);
+    font-size: 22px;
 }
  
 .footer img {
-    width: 150px;
+    width: 100px;
     margin: 0 auto;
     border: 2px solid var(--bg2-color);
     background-color: var(--text-color);
@@ -73,13 +74,13 @@ body {
 .footer .local {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     color: var(--title-color);
 }
 
 .footer p span {
     color: var(--text-color);
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .maps iframe{
