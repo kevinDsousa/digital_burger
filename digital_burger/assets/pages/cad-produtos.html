@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/cat-prods.css" />
+  </head>
+  <body id="dashboard">
+    <header id="header">
+      <h1>Meu Café</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="cad-categoria.html">Categorias</a>
+          </li>
+          <li>
+            <a href="cad-produtos.html">Produtos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container mt-5 white">
+      <table class="table">
+        <h2 class="d-flex justify-content-between">
+          Produtos <button class="btn btn-primary">Novo produto</button>
+        </h2>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">nome do produto</th>
+            <th scope="col">categoria</th>
+            <th scope="col">Preço</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>café</td>
+            <td>bebidas</td>
+            <td>R$ 3.00</td>
+            <td>
+              <button class="btn btn-warning">Editar</button>
+              <button class="btn btn-danger">Deletar</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Chá gelado</td>
+            <td>bedidas</td>
+            <td>R$ 7.00</td>
+            <td>
+              <button class="btn btn-warning">Editar</button>
+              <button class="btn btn-danger">Deletar</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Suco de laranja(Copo)</td>
+            <td>bebidas</td>
+            <td>R$ 7.50</td>
+            <td>
+              <button class="btn btn-warning">Editar</button>
+              <button class="btn btn-danger">Deletar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
