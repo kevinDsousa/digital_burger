@@ -22,6 +22,7 @@ function createProduct(title, description, itens, components) {
         <div class="pictures-text">
             <h2>${title}</h2>
             <p>${description}</p>
+            <p>valor</p>
         </div>
     </div>`)
     
@@ -35,5 +36,11 @@ createProduct('php burger', 'teste 123', 'eduardo-burger');
 createProduct('php burger', 'esse daqui tbm e teste', 'gleison-burger');
 createProduct('php burger', 'teste parametro', 'kevin-burger');
 createProduct('php burger', 'eu nao sei se é teste', 'anady-burger');
+createProduct('php burger', 'testei e deu certo', 'eduardo-burger');
+createProduct('php burger', 'testei e deu certo', 'nathan-burger');
+createProduct('php burger', 'testei e deu certo', 'nathan-burger');
+createProduct('php burger', 'testei e deu certo', 'nathan-burger');
+createProduct('php burger', 'testei e deu certo', 'nathan-burger');
+createProduct('php burger', 'testei e deu certo', 'nathan-burger');
 createProduct('php burger', 'testei e deu certo', 'nathan-burger');
 

@@ -41,7 +41,7 @@
 .burgers {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .content {
@@ -50,18 +50,20 @@
     display: flex;
     align-items: start;
     justify-content: center;
-    height: 260px;
+    height: 200px;
+    width: 400px;
     transition:transform 0.3s ease-in , box-shadow 0.2s ease-in-out;
+    border: 1px solid #ccc;
 }
 
 .content:hover {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .content .pictures img {
-    width: 200px;
-    height: 200px;
+    width: 120px;
+    height: 100px;
     border-radius: 10px;
 }
 
