@@ -1,5 +1,19 @@
 @import url("./reset.css");
 
+section nav .header-navbar-topics  ul{
+    background-color: #252525;
+}
+.header-navbar-topics  ul li a{
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-navbar-topics  ul li a:hover{
+    color: #c00424;
+}
+.header-navbar-topics  ul li a:active{
+    color: #ccc;
+}
 .header-banner{
     display: flex;
     padding-top: 10px;
