@@ -1,9 +1,26 @@
 @import url("./reset.css");
-
-
-section nav .header-navbar-topics  ul{
+/*navbar*/
+li{
+    display: inline;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+nav .image{
+    text-align: center;
+}
+nav div img{
+    width: 20%;
+}
+nav div h4{
+    color: #fff;
+}
+.header-navbar{
     background-color: #252525;
 }
+
 .header-navbar-topics  ul li a{
     color: #ccc;
     font-size: 20px;
@@ -15,7 +32,11 @@ section nav .header-navbar-topics  ul{
 .header-navbar-topics  ul li a:active{
     color: #ccc;
 }
+nav i{
+    margin: 0 10px;
+}
 
+/*logo*/
 .header-banner{
     display: flex;
     padding-top: 10px;
