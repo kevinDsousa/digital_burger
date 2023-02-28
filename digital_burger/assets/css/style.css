@@ -1,5 +1,6 @@
 @import url("./reset.css");
 
+
 section nav .header-navbar-topics  ul{
     background-color: #252525;
 }
@@ -14,6 +15,7 @@ section nav .header-navbar-topics  ul{
 .header-navbar-topics  ul li a:active{
     color: #ccc;
 }
+
 .header-banner{
     display: flex;
     padding-top: 10px;
@@ -128,3 +130,8 @@ section nav .header-navbar-topics  ul{
 /* .social-icons image{
     ;
 } */
+
+
+
+/* header */
+
