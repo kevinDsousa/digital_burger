@@ -22,7 +22,7 @@ function createProduct(title, description, itens, valor , components) {
         <div class="pictures-text">
             <h2>${title}</h2>
             <p>${description}</p>
-            <p>valor: ${valor}</p>
+            <span>${valor}</span>
         </div>
     </div>`)
     
@@ -31,10 +31,10 @@ function createProduct(title, description, itens, valor , components) {
     TAG.appendChild(ITEM);    
 }
 
-createProduct('Pudim','Doce caseiro feito com receita de vó.','Sobremesas/Pudim','15,00 reais');
-createProduct('Mousse de limão com chocolate','Leva creme de leite, leite condensado, gelatina, chocolate e chá de suco de limão.','Sobremesas/Mousse de limão com chocolate','15,00 reais');
-createProduct('Pavê de chocolate','Feito com biscoito champanhe, chocolate picado, creme de leite e leite condensado','Sobremesas/Pavê de chocolate','18,00 reais');
-createProduct('Delícia de abacaxi','Leva creme de leite, leite condensado, ovos, açúcar e abacaxi','Sobremesas/Delícia de abacaxi','18,00 reais');
-createProduct('Petit gateau','Bolinho quente de chocolate acompanhando com sorvete de creme.','Sobremesas/Petit gateau','20,00 reais');
+createProduct('Pudim','Doce caseiro feito com receita de vó.','Sobremesas/Pudim','R$15,00');
+createProduct('Mousse de limão com chocolate','Leva creme de leite, leite condensado, gelatina, chocolate e chá de suco de limão.','Sobremesas/Mousse de limão com chocolate','R$15,00');
+createProduct('Pavê de chocolate','Feito com biscoito champanhe, chocolate picado, creme de leite e leite condensado','Sobremesas/Pavê de chocolate','R$18,00');
+createProduct('Delícia de abacaxi','Leva creme de leite, leite condensado, ovos, açúcar e abacaxi','Sobremesas/Delícia de abacaxi','R$18,00');
+createProduct('Petit gateau','Bolinho quente de chocolate acompanhando com sorvete de creme.','Sobremesas/Petit gateau','R$20,00');
 
 
