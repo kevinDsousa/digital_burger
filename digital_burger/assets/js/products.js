@@ -46,11 +46,11 @@ createProduct('Combo 5', 'Pão australiano tostado na manteiga, duas carnes de 1
 createProduct('Combo 6', 'Pão brioche, duas carnes de 100g, duas fatias de queijo cheddar, quatro anéis de cebola e nosso maravilhoso molho da casa. Acompanha fritas temperadas e uma bebida a sua escolha.','Combos/Combo 6');
 
 createProduct('Burger 1','Pão de beterraba, burger suíno de 150g, bacon, queijo muçarela, maçã caramelizada, alface e maionese especial.','Burgers/Burger 1');
-createProduct('Burger 2','Feito com queijo muçarela, cebola roxa caramelizada e maionese de bacon artesanal no pão brioche.','Burgers/Burger 2');
-createProduct('Burger 3','Feito com queijo muçarela de búfala, tomate seco artesanal, molho de pesto e rúcula no pão brioche.','Burgers/Burger 3');
+createProduct('Burger 2','Pão australiano tostado na manteiga, duas carnes de 100g da casa, dois bacons, duas fatias de queijo cheddar, alface, tomate, molho de ervas e barbecue. Acompanha fritas temperadas e uma bebida a sua escolha.','Burgers/Burger 2');
+createProduct('Burger 3','Pão brioche, duas carnes de 100g, duas fatias de queijo cheddar, quatro anéis de cebola e nosso maravilhoso molho da casa.','Burgers/Burger 3');
 createProduct('Burger 4','São 3 hambúrgueres de Angus 120 g, 3 fatias de cheddar, 3 fatias de bacon, maionese temperada da casa, alface e tomate no pão brioche.','Burgers/Burger 4');
-createProduct('Burger 5','Pão australiano tostado na manteiga, duas carnes de 100g da casa, dois bacons, duas fatias de queijo cheddar, alface, tomate, molho de ervas e barbecue.','Burgers/Burger 5');
-createProduct('Burger 6','Pão brioche, duas carnes de 100g, duas fatias de queijo cheddar, quatro anéis de cebola e nosso maravilhoso molho da casa.','Burgers/Burger 6');
+createProduct('Burger 5','Feito com queijo muçarela, cebola roxa caramelizada e maionese de bacon artesanal no pão brioche.','Burgers/Burger 5');
+createProduct('Burger 6','Feito com queijo muçarela de búfala, tomate seco artesanal, molho de pesto e rúcula no pão brioche.','Burgers/Burger 6');
 
 createProduct('Água sem Gás','500 ml de água sem gás','Bebidas/Água com Gás');
 createProduct('Água com Gás','500 ml de água com gás','Bebidas/Água sem Gás');
