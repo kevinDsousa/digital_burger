@@ -43,11 +43,11 @@
 .produtos {
     margin-bottom: 20px;
     margin-right: 100px;
+
 }
 
 .content {
-    width: 100%;
-    height: 100%;
+    margin: 20px;
     padding: 10px;
     display: flex;
     transition:transform 0.3s ease-in, box-shadow 0.2s ease-in-out;
