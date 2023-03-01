@@ -68,15 +68,25 @@
 
 .produtos {
     margin-bottom: 20px;
-    margin-right: 100px;
+}
 
+#combos,
+#entradas,
+#burgers,
+#bebidas,
+#sobremesas
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
 }
 
 .content {
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
-    border-radius: 10px;
+    height: 200px;
     display: flex;
+    border-radius: 10px;
     transition:transform 0.3s ease-in, box-shadow 0.2s ease-in-out;
     border: 1px solid #ccc;
 }
@@ -92,8 +102,8 @@
 }
 
 .content .pictures img {
-    width: 120px;
-    height: 100px;
+    width: 150px;
+    height: 120px;
     border-radius: 10px;
 }
 
