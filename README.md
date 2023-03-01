@@ -3,8 +3,8 @@ Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo 
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp; |&nbsp;&nbsp;&nbsp;
-  <a href="#-participantes">Participantes</a>
+  <a href="#-projeto">Projeto</a>&nbsp;
+
 </p>
 
 <br>

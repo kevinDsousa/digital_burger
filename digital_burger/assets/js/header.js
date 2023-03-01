@@ -7,7 +7,7 @@ const HTMLHEAD = (`
 <div class="header-navbar">
             <nav class="container nav navbar header-navbar-topics justify-content-between">
                 <div class="image">
-                    <img src="assets/images/logo.png" alt="">
+                    <img src="assets/images/logo-white.png" alt="">
                 </div>
                 <ul class="nav">
                     <li class="nav-item">

@@ -43,7 +43,7 @@ nav .image{
     text-align: center;
 }
 nav div img{
-    width: 60px;
+    width: 120px;
 }
 nav div h4{
     color: #fff;
@@ -104,12 +104,9 @@ nav i{
 }
  
 .footer img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
-    border: 2px solid var(--bg2-color);
-    background-color: var(--text-color);
-    border-radius: 80px;
 }
 
 .footer .local {

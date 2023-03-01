@@ -6,7 +6,7 @@ const TAG = document.querySelector(".footer");
 const HTML = (`
 <div class="footer-content">
     <div class="local">
-        <img src="https://www.linkpicture.com/q/logo-1_36.png" alt="Logo digital burger">
+        <img src="assets/images/logo-white.png" alt="Logo digital burger">
         <div class="text">
             <h3>Digital Burger</h3>
             <p>Estamos localizados: <span>Manhattan Square Garden</span></p>
