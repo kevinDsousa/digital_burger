@@ -48,7 +48,7 @@ nav div img{
 nav div h4{
     color: #fff;
 }
-.header-navbar{
+.header-navbar {
     background-color: #252525;
 }
 
@@ -66,8 +66,6 @@ nav div h4{
 nav i{
     margin: 0 10px;
 }
-
-
 
 /*Footer*/
 
@@ -104,8 +102,8 @@ nav i{
 }
  
 .footer img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 80px;
     margin: 0 auto;
 }
 
