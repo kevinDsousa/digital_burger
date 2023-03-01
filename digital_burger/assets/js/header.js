@@ -34,3 +34,17 @@ const HTMLHEAD = (`
 `)
 
 TAGH.innerHTML = HTMLHEAD;
+
+
+let scrolled = window.pageYOffset;
+let screenSize = document.getElementsByTagName("body")[0].offsetWidth;
+if(scrolled > 200 && screenSize > 400) {
+  document.getElemntById("menu").classList.add("onScroll")
+} else {
+    document.getElemntById("menu").classList.remove("onScroll")
+
+}
+
+window.addEventListener("scroll1", () => {
+  menuLateral();
+ })
