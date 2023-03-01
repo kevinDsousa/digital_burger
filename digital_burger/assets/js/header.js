@@ -8,7 +8,6 @@ const HTMLHEAD = (`
             <nav class="container nav navbar header-navbar-topics justify-content-between">
                 <div class="image">
                     <img src="assets/images/logo.png" alt="">
-                    <h4>Digital burguer</h4>
                 </div>
                 <ul class="nav">
                     <li class="nav-item">

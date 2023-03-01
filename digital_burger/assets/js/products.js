@@ -1,4 +1,4 @@
-function createProduct(title, description, itens, components) {
+function createProduct(title, description, itens, valor , components) {
     /** Gera o html dos produtos automagicamente. Para adicionar um novo produto, basta criar uma função no final deste arquivo passando os parametros solicitados.
      * @function createProduct
      * @param {string} title - Titulo no produto.
@@ -22,7 +22,7 @@ function createProduct(title, description, itens, components) {
         <div class="pictures-text">
             <h2>${title}</h2>
             <p>${description}</p>
-            <p>valor</p>
+            <p>valor: ${valor}</p>
         </div>
     </div>`)
     
@@ -31,7 +31,7 @@ function createProduct(title, description, itens, components) {
     TAG.appendChild(ITEM);    
 }
 
-createProduct('Batata Frita','Deliciosa porção de fritas.','Entradas/Batata Frita',);
+createProduct('Batata Frita','Deliciosa porção de fritas.','Entradas/Batata Frita', '35');
 createProduct('Batata Frita com Cheddar e Bacon', 'Nossa incrível batata com cheddar e bacon.','Entradas/Batata Frita Cheddar e Bacon');
 createProduct('Batata Frita com Costela', 'Nossa batata frita 300g com nosso delicioso creme cheese e costela desfila com barbecue.','Entradas/Batata Frita com Costela');
 createProduct('Onion Rings', 'Anéis de cebolas empanadas.','Entradas/Onion Rings');
