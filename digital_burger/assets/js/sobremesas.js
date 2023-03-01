@@ -6,7 +6,7 @@ function createProduct(title, description, itens, valor , components) {
      * @param {string} itens - imagem do produto
      * @param {Array} components - lista de componentes de formacao do item.
      */
-    const TAG = document.querySelector('#combos');
+    const TAG = document.querySelector('#sobremesas');
     const HTML = (`
     <div class="content">
         <div class="pictures">
