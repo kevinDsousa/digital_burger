@@ -2,7 +2,36 @@
  * 
  */
 
-const TAG = document.querySelector(".header");
-const HTML = (``)
+const TAGH = document.querySelector(".headNav");
+const HTMLHEAD = (`
+<div class="header-navbar">
+            <nav class="container nav navbar header-navbar-topics justify-content-between">
+                <div class="image">
+                    <img src="assets/images/logo.png" alt="">
+                    <h4>Digital burguer</h4>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./sobreNos.html">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Cardápio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Como chegar</a>
+                    </li>
+                </ul>
 
-TAG.innerHTML = HTML;
+                <ul>
+                    <li>
+                        <a href="./assets/pages/instaTroll.html"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/KevinDik/digital_burger"><i class="bi bi-github"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+`)
+
+TAGH.innerHTML = HTMLHEAD;

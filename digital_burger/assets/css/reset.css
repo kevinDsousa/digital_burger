@@ -30,6 +30,44 @@ body {
     height: 100vh;
 }
 
+/*navbar*/
+li{
+    display: inline;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+nav .image{
+    text-align: center;
+}
+nav div img{
+    width: 60px;
+}
+nav div h4{
+    color: #fff;
+}
+.header-navbar{
+    background-color: #252525;
+}
+
+.header-navbar-topics  ul li a{
+    color: #ccc;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-navbar-topics  ul li a:hover{
+    color: #c00424;
+}
+.header-navbar-topics  ul li a:active{
+    color: #ccc;
+}
+nav i{
+    margin: 0 10px;
+}
+
+
 
 /*Footer*/
 

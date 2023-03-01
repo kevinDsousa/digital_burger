@@ -1,41 +1,5 @@
 @import url("./reset.css");
 
-/*navbar*/
-li{
-    display: inline;
-    cursor: pointer;
-}
-ul{
-    list-style: none;
-    margin: 0;
-}
-nav .image{
-    text-align: center;
-}
-nav div img{
-    width: 20%;
-}
-nav div h4{
-    color: #fff;
-}
-.header-navbar{
-    background-color: #252525;
-}
-
-.header-navbar-topics  ul li a{
-    color: #ccc;
-    font-size: 20px;
-    font-weight: bold;
-}
-.header-navbar-topics  ul li a:hover{
-    color: #c00424;
-}
-.header-navbar-topics  ul li a:active{
-    color: #ccc;
-}
-nav i{
-    margin: 0 10px;
-}
 
 /*logo*/
 .header-banner{
@@ -76,21 +40,26 @@ nav i{
 
 /*Produtos*/
 
+.produtos {
+    display: flex;
+    justify-content: end;
+}
+
 .burgers {
-    width: 100%;
+    width: 70%;
     display: grid;
+    gap: 20px;
+    justify-content: end;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    margin-right: 100px;
 }
 
 .content {
-    margin: 10px;
+    width: 100%;
     padding: 10px;
     display: flex;
-    align-items: start;
-    justify-content: center;
-    height: 200px;
-    width: 400px;
-    transition:transform 0.3s ease-in , box-shadow 0.2s ease-in-out;
+    transition:transform 0.3s ease-in, box-shadow 0.2s ease-in-out;
     border: 1px solid #ccc;
 }
 
@@ -107,7 +76,7 @@ nav i{
 
 .components ul {
     display: flex;
-    gap: 40px;
+    gap: 10px;
     align-items: center;
     list-style: none;
     padding: 0;
@@ -115,8 +84,8 @@ nav i{
 }
 
 .pictures .components ul li img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .content .pictures-text {
