@@ -15,7 +15,7 @@ function createProduct(title, description, itens, valor , components) {
         <div class="pictures-text">
             <h2>${title}</h2>
             <p>${description}</p>
-            <p>${valor}</p>
+            <span>${valor}</span>
         </div>
     </div>`)
     
