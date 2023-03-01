@@ -54,6 +54,14 @@
     border: 1px solid #ccc;
 }
 
+.produtos h2{
+    margin: 50px 20px 10px 20px;
+    padding: 5px;
+    color: #fff;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+}
+
 .content:hover {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
     transform: scale(1.05);
@@ -88,7 +96,7 @@
 }
 
 .content .pictures-text h2 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     margin: 0;
     padding-bottom: 5px;
@@ -102,21 +110,4 @@
 }
 
 
-/* .categories{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-.categories div{
-    width: 100px;
-
-} */
-/* .social-icons image{
-    ;
-} */
-
-
-
-/* header */
 
