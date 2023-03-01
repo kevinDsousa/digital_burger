@@ -75,6 +75,7 @@
 .content {
     margin: 20px;
     padding: 10px;
+    border-radius: 10px;
     display: flex;
     transition:transform 0.3s ease-in, box-shadow 0.2s ease-in-out;
     border: 1px solid #ccc;
