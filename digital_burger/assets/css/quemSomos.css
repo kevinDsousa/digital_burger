@@ -16,7 +16,11 @@ section {
     font-size: 14px;
     color: var(--text-color);
     display: flex;
-    background-color: var(--bg-card);
+    background-image: url("../images/sobre/bgSobre.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .about p {
@@ -46,6 +50,14 @@ section {
     width: 450px;
 }
 
+.cards:nth-child(odd) {
+    background-image: url("../images/sobre/bgSobre.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cards {
     display: flex;
     justify-content: center;
@@ -64,4 +76,5 @@ section {
 
 .cards img {
     width: 50%;
+    border-radius: 5px;
 }
