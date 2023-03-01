@@ -97,14 +97,17 @@
 }
 
 .content .pictures-text h2 {
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 16px;
     margin: 0;
     padding-bottom: 5px;
+    font-family: var(--font-title2);
 }
 
 .content .pictures-text p {
-    font-size: 12px;
+    font-size: 14px;
+    font-family: var(--font-text2);
+    font-weight: 400;
 }
 
 
