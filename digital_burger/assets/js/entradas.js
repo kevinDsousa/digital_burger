@@ -15,7 +15,7 @@ function createProduct(title, description, itens, valor , components) {
         <div class="pictures-text">
             <h2>${title}</h2>
             <p>${description}</p>
-            <p>valor: ${valor}</p>
+            <p>${valor}</p>
         </div>
     </div>`)
     
@@ -24,10 +24,10 @@ function createProduct(title, description, itens, valor , components) {
     TAG.appendChild(ITEM);    
 }
 
-createProduct('Batata Frita','Deliciosa porção de fritas.','Entradas/Batata Frita','19,99 reais');
-createProduct('Batata Frita com Cheddar e Bacon', 'Nossa incrível batata com cheddar e bacon.','Entradas/Batata Frita Cheddar e Bacon','27,99 reais');
-createProduct('Batata Frita com Costela', 'Nossa batata frita 300g com nosso delicioso creme cheese e costela desfila com barbecue.','Entradas/Batata Frita com Costela','29,99 reais');
-createProduct('Onion Rings', 'Anéis de cebolas empanadas.','Entradas/Onion Rings','24,99 reais');
-createProduct('Bolinha de Queijo', 'Porção de 12 bolinhas de queijo fritas na hora.','Entradas/Bolinha de Queijo','24,99 reais');
-createProduct('Nuggets de Frango', 'Porção de 12 Nuggets fritos na hora.','Entradas/Nuggets de Frango','19,99 reais');
+createProduct('Batata Frita','Deliciosa porção de fritas.','Entradas/Batata Frita','R$19,99');
+createProduct('Batata Frita com Cheddar e Bacon', 'Nossa incrível batata com cheddar e bacon.','Entradas/Batata Frita Cheddar e Bacon','R$27,99');
+createProduct('Batata Frita com Costela', 'Nossa batata frita 300g com nosso delicioso creme cheese e costela desfila com barbecue.','Entradas/Batata Frita com Costela','R$29,99');
+createProduct('Onion Rings', 'Anéis de cebolas empanadas.','Entradas/Onion Rings','R$24,99');
+createProduct('Bolinha de Queijo', 'Porção de 12 bolinhas de queijo fritas na hora.','Entradas/Bolinha de Queijo','R$24,99');
+createProduct('Nuggets de Frango', 'Porção de 12 Nuggets fritos na hora.','Entradas/Nuggets de Frango','R$19,99');
 
