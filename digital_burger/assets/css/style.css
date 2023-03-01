@@ -41,22 +41,13 @@
 /*Produtos*/
 
 .produtos {
-    display: flex;
-    justify-content: end;
-}
-
-.burgers {
-    width: 70%;
-    display: grid;
-    gap: 20px;
-    justify-content: end;
-    grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
     margin-right: 100px;
 }
 
 .content {
     width: 100%;
+    height: 100%;
     padding: 10px;
     display: flex;
     transition:transform 0.3s ease-in, box-shadow 0.2s ease-in-out;
