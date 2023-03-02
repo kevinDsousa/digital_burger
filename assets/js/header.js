@@ -14,7 +14,7 @@ const HTMLHEAD = (`
                         <a class="nav-link active" aria-current="page" href="./sobreNos.html">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#menu">Cardápio</a>
+                        <a class="nav-link" href="./index.html">Cardápio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#footer">Como chegar</a>
