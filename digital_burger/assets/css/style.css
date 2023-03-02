@@ -38,14 +38,29 @@
     transform: scale(1.1);
 }
 
-/*Produtos*/
+.onScroll {
+    position: fixed;
+}
 
-.title {
+.onScroll {
+    display: flex;
+    top: 10%;
+    flex-direction: column;
+    width: 180px;
+
+}
+
+/*Produtos*/
+.container {
+    position: relative;
+}
+
+.container .title {
     font-family: var(--font-title2);
     text-align: center;
 }
 
-.title::after {
+.container .title::after {
     content: '';
     border-radius: 5px;
     position: absolute;
@@ -55,7 +70,7 @@
     background-color: var(--bg-color);
     z-index: 1;
 }
-.title::before {
+.container .title::before {
     content: '';
     border-radius: 5px;
     position: absolute;
@@ -82,7 +97,8 @@
 }
 
 .content {
-    margin: 10px;
+    cursor: pointer;
+    margin: 30px 10px;
     padding: 10px;
     height: 200px;
     display: flex;

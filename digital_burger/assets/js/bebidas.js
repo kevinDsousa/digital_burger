@@ -17,7 +17,8 @@ function createProduct(title, description, itens, valor , components) {
             <p>${description}</p>
             <span>${valor}</span>
         </div>
-    </div>`)
+    </div>
+`)
     
     const ITEM = document.createElement('div');
     ITEM.innerHTML = HTML;
