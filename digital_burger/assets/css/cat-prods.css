@@ -1,0 +1,158 @@
+@import url("./reset.css");
+
+.white{
+    background-color: white;
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+body{
+    background-color: #7f1d33;
+}
+
+#login{
+    height: 100vh;
+}
+
+#login form{
+    background-color: white;
+}
+
+header{
+    background-color: #7f1d33;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header img{
+    display: block;
+}
+header ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 0;
+}
+header ul li{
+    list-style: none;
+}
+header ul li .icon{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+header ul li a{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+#dashboard{
+    padding-left: 280px;
+}
+#header{
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#header h1{
+    text-align: center;
+    line-height: 70px;
+    font-size: 36px;
+}
+#header ul li a{
+    display: block;
+    line-height: 46px;
+    text-decoration: none;
+    color: white;
+    padding: 0 16px;
+}
+#header ul li a:hover{
+    background-color: #FFFFFF20;
+}
+
+section{
+    width: 100%;
+    background-color: #fff3b0;
+    padding: 50px;
+}
+section:first-child{
+    border-radius: 30px 30px 0 0;
+}
+section:last-child{
+    border-radius: 30px 30px 0 0;
+}
+section ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+section ul li{
+    width: calc(50% - 8px);
+    list-style: none;
+}
+section ul li .produto{
+    display: flex;
+    justify-content: space-between;
+}
+section ul li .produto-foto{
+    width: 150px;
+    height: 150px;
+    background-color: #7f1d33;
+    border-radius: 5px;
+}
+section ul li .produto-info{
+    width: calc(100% - 166px);
+}
+#secao1{}
+#secao2{}
+#secao3{}
+
+
+@media only screen and (max-width: 768px){
+    section ul{
+        flex-wrap: wrap;
+    }
+    section ul li{
+        width: 100%;
+        margin-bottom: 26px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    header ul{
+        flex-wrap: wrap;
+        padding-bottom: 0;
+    }
+    header ul li .icon{
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    header ul li span{
+        display: none;
+    }
+    section ul li .produto{
+        flex-wrap: wrap;
+    }
+    section ul li .produto-foto{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 16px;
+    }
+    section ul li .produto-info{
+        width: 100%;
+    }
+    section ul li .produto-info p{
+        text-align: justify;
+    }
+}

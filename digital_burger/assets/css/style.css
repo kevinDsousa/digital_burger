@@ -1,0 +1,175 @@
+@import url("./reset.css");
+
+
+/*logo*/
+.header-banner{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.banner-logo{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 90px;
+
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 163vh;
+    top: 15vh;
+    size-adjust: 30%;
+}
+
+.row .col{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.row .col img{
+    width: 70%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.row .col img:hover {
+    transform: scale(1.1);
+}
+
+.onScroll {
+    position: fixed;
+}
+
+.onScroll {
+    display: flex;
+    top: 10%;
+    flex-direction: column;
+    width: 180px;
+
+}
+
+/*Produtos*/
+.container {
+    position: relative;
+    margin-left: 120px;
+}
+
+.container .title {
+    font-family: var(--font-title2);
+    text-align: center;
+}
+
+.container .title::after {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    left: 2px;
+    width: 30%;
+    height: 3px;
+    background-color: var(--bg-color);
+    z-index: 1;
+}
+.container .title::before {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    width: 30%;
+    right: 2px;
+    height: 3px;
+    background-color: var(--bg-color);    
+    z-index: 1;
+}
+
+.produtos {
+    margin-bottom: 10px;
+    
+}
+
+#combos,
+#entradas,
+#burgers,
+#bebidas,
+#sobremesas
+ {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.content {
+    cursor: pointer;
+    margin: 30px 10px;
+    padding: 10px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    border-radius: 7px;
+    transition:transform 0.1s ease-in, box-shadow 0.2s ease-in-out;
+    border: 2px solid #ccc;
+}
+
+.produtos h2{
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.content:hover {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.content .pictures img {
+    width: 150px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.components ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.pictures .components ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.content .pictures-text {
+    width: 70%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.content .pictures-text h2 {
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 5px;
+    margin: 0px 15px 10px 15px;
+    font-family: var(--font-title2);
+    color: #fff;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.content .pictures-text p {
+    font-size: 14px;
+    font-family: var(--font-text2);
+    font-weight: 400;
+}
+
+.pictures-text span{
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 500;
+    font-family: var(--font-title2);
+}
+
+
