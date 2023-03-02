@@ -31,10 +31,10 @@ function createProduct(title, description, itens, valor , components) {
     TAG.appendChild(ITEM);    
 }
 
-createProduct('Pudim','Doce caseiro feito com receita de vó.','Sobremesas/Pudim','R$15,00', ["", "", ""]);
-createProduct('Mousse de limão com chocolate','Leva creme de leite, leite condensado, gelatina, chocolate e chá de suco de limão.','Sobremesas/Mousse de limão com chocolate','R$15,00', ["", "", ""]);
-createProduct('Pavê de chocolate','Feito com biscoito champanhe, chocolate picado, creme de leite e leite condensado','Sobremesas/Pavê de chocolate','R$18,00', ["", "", ""]);
-createProduct('Delícia de abacaxi','Leva creme de leite, leite condensado, ovos, açúcar e abacaxi','Sobremesas/Delícia de abacaxi','R$18,00', ["", "", ""]);
-createProduct('Petit gateau','Bolinho quente de chocolate acompanhando com sorvete de creme.','Sobremesas/Petit gateau','R$20,00', ["", "", ""]);
+createProduct('Pudim','Doce caseiro feito com receita de vó.','Sobremesas/Pudim.jpg','R$15,00', ["", "", ""]);
+createProduct('Mousse de limão com chocolate','Leva creme de leite, leite condensado, gelatina, chocolate e chá de suco de limão.','Sobremesas/Mousse de limão com chocolate.jpg','R$15,00', ["", "", ""]);
+createProduct('Pavê de chocolate','Feito com biscoito champanhe, chocolate picado, creme de leite e leite condensado','Sobremesas/Pavê de chocolate.jpg','R$18,00', ["", "", ""]);
+createProduct('Delícia de abacaxi','Leva creme de leite, leite condensado, ovos, açúcar e abacaxi','Sobremesas/Delícia de abacaxi.jpg','R$18,00', ["", "", ""]);
+createProduct('Petit gateau','Bolinho quente de chocolate acompanhando com sorvete de creme.','Sobremesas/Petit gateau.jpg','R$20,00', ["", "", ""]);
 
 
