@@ -41,15 +41,22 @@
 .onScroll {
     position: fixed;
     display: flex;
-    top: 10%;
+    top: 0;
     flex-direction: column;
-    width: 180px;
+    height: 100vh;
+    width: 120px;
+    background-color: var(--bg-color);
+    transition: 0.3s;
+    z-index: 1;
 }
 
+.onScroll .col img {
+    width: 80px;
+}
 
 /*Produtos*/
 #categorias{
-    align-items: center;
+    margin: 0 auto;
 }
 
 .produtos {
@@ -67,7 +74,7 @@
     border-radius: 5px;
     position: absolute;
     left: 2px;
-    width: 30%;
+    width: 40%;
     height: 3px;
     background-color: var(--bg-color);
     z-index: 1;
@@ -76,7 +83,7 @@
     content: '';
     border-radius: 5px;
     position: absolute;
-    width: 30%;
+    width: 40%;
     right: 2px;
     height: 3px;
     background-color: var(--bg-color);    
@@ -103,7 +110,7 @@
     cursor: pointer;
     margin: 30px 10px;
     padding: 10px;
-    width: 600px;
+    height: 190px;
     display: flex;
     border-radius: 7px;
     transition: transform 0.1s ease-in, box-shadow 0.2s ease-in-out;
@@ -136,12 +143,12 @@
 }
 
 .pictures .components ul li img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .content .pictures-text {
-    width: 70%;
+    width: 50%;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
