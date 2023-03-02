@@ -1,0 +1,39 @@
+.btn-back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    font-size: 24px;
+    color: #fff;
+    background-color: #252525;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-back-to-top:hover {
+    transform: translateY(-10px);
+}
+
+.btn-back-to-top i {
+    transform: rotate(-90deg);
+}
+#botao-voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
