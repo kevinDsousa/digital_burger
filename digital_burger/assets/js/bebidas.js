@@ -1,4 +1,4 @@
-function createProduct(title, description, itens, valor , components) {
+function createProduct(title, description, itens, valor) {
     /** Gera o html dos produtos automagicamente. Para adicionar um novo produto, basta criar uma função no final deste arquivo passando os parametros solicitados.
      * @function createProduct
      * @param {string} title - Titulo no produto.

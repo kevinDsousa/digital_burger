@@ -10,7 +10,7 @@ function createProduct(title, description, itens, valor , components) {
     const HTML = (`
     <div class="content">
         <div class="pictures">
-            <img src="./assets/images/${itens}.jpg" alt="">
+            <img src="./assets/images/${itens}" alt="">
         </div>
         <div class="pictures-text">
             <h2>${title}</h2>
