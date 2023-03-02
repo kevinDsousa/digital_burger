@@ -78,3 +78,53 @@ section {
     width: 50%;
     border-radius: 5px;
 }
+
+/*Responsividade*/
+
+@media (max-width: 768px)
+{
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .chef {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .image-chef img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .title-text {
+    text-align: center;
+  }
+
+  .cards, .cards img {
+    flex-direction: column;
+  }
+
+  .cards > p {
+    font-size: 18px;
+    }
+
+  .cards > img {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+    .about p {
+        font-size: 20px;
+      }
+
+    .cards > p {
+        font-size: 20px;
+    }
+}
