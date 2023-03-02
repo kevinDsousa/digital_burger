@@ -40,28 +40,29 @@
 
 .onScroll {
     position: fixed;
-}
-
-.onScroll {
     display: flex;
     top: 10%;
     flex-direction: column;
     width: 180px;
-
 }
 
+
 /*Produtos*/
-.container {
+#categorias{
+    align-items: center;
+}
+
+.produtos {
     position: relative;
     margin-left: 120px;
 }
 
-.container .title {
+.produtos .title {
     font-family: var(--font-title2);
     text-align: center;
 }
 
-.container .title::after {
+.produtos .title::after {
     content: '';
     border-radius: 5px;
     position: absolute;
@@ -71,7 +72,7 @@
     background-color: var(--bg-color);
     z-index: 1;
 }
-.container .title::before {
+.produtos .title::before {
     content: '';
     border-radius: 5px;
     position: absolute;
@@ -105,7 +106,7 @@
     width: 600px;
     display: flex;
     border-radius: 7px;
-    transition:transform 0.1s ease-in, box-shadow 0.2s ease-in-out;
+    transition: transform 0.1s ease-in, box-shadow 0.2s ease-in-out;
     border: 2px solid #ccc;
 }
 
@@ -172,6 +173,8 @@
 }
 
 @media only screen and (max-width: 768px){
+    .headNav{
+    }
     #combos,
     #entradas,
     #burgers,
