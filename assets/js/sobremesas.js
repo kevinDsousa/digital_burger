@@ -10,12 +10,12 @@ function createProduct(title, description, itens, valor , components) {
     const HTML = (`
     <div class="content">
         <div class="pictures">
-            <img src="./assets/images/${itens}" alt="">
+            <img src="./assets/images/Sobremesas/${itens}" alt="">
             <div class="components">
             <ul>
-                <li><img src="${components[0]}"></img></li>
-                <li><img src="${components[1]}"></img></li>
-                <li><img src="${components[2]}"></img></li>
+                <li><img src="./assets/images/Selos/${components[0]}"></img></li>
+                <li><img src="./assets/images/Selos/${components[1]}"></img></li>
+                <li><img src="./assets/images/Selos/${components[2]}"></img></li>
             </ul>
         </div>
         </div>
@@ -31,12 +31,12 @@ function createProduct(title, description, itens, valor , components) {
     TAG.appendChild(ITEM);    
 }
 
-createProduct('Pudim','Doce caseiro feito com receita de vó.','Sobremesas/Pudim.jpg','R$15,00', ["/assets/images/Selos/Selo Açúcar.jpg", "/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg"]);
-createProduct('Mousse de limão com chocolate','Leva creme de leite, leite condensado, gelatina, chocolate e chá de suco de limão.','Sobremesas/Mousse de limão com chocolate.jpg','R$15,00', ["/assets/images/Selos/Selo Açúcar.jpg", "/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg"]);
-createProduct('Pavê de chocolate','Feito com biscoito champanhe, chocolate picado, creme de leite e leite condensado','Sobremesas/Pavê de chocolate.jpg','R$18,00', ["/assets/images/Selos/Selo Açúcar.jpg", "/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg"]);
-createProduct('Delícia de abacaxi','Leva creme de leite, leite condensado, ovos, açúcar e abacaxi','Sobremesas/Delícia de abacaxi.jpg','R$18,00', ["/assets/images/Selos/Selo Açúcar.jpg", "/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg"]);
-createProduct('Petit gateau','Bolinho quente de chocolate acompanhando com sorvete de creme.','Sobremesas/Petit gateau.jpg','R$20,00', ["/assets/images/Selos/Selo Açúcar.jpg", "/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg"]);
-createProduct('Milk Shake','3 bolas de sorvete de creme, 2 doses (80 ml) de café expresso, 50 ml de calda de chocolate, 100 ml de leite e castanha de caju picadinha.','Sobremesas/Milk Shake.jpg','R$29,99', ["/assets/images/Selos/Selo Açúcar.jpg", "/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg"]);
+createProduct('Pudim','Doce caseiro feito com receita de vó.','Pudim.jpg','R$15,00', ["Selo Açúcar.jpg", "Selo Glúten.jpg", "Selo Lactose.jpg"]);
+createProduct('Mousse de limão com chocolate','Leva creme de leite, leite condensado, gelatina, chocolate e chá de suco de limão.','Mousse de Limão com Chocolate.jpg','R$15,00', ["Selo Açúcar.jpg", "Selo Glúten.jpg", "Selo Lactose.jpg"]);
+createProduct('Pavê de chocolate','Feito com biscoito champanhe, chocolate picado, creme de leite e leite condensado','Pavê de Chocolate.jpg','R$18,00', ["Selo Açúcar.jpg", "Selo Glúten.jpg", "Selo Lactose.jpg"]);
+createProduct('Delícia de abacaxi','Leva creme de leite, leite condensado, ovos, açúcar e abacaxi','Delícia de Abacaxi.jpg','R$18,00', ["Selo Açúcar.jpg", "Selo Glúten.jpg", "Selo Lactose.jpg"]);
+createProduct('Petit gateau','Bolinho quente de chocolate acompanhando com sorvete de creme.','Petit Gateau.jpg','R$20,00', ["Selo Açúcar.jpg", "Selo Glúten.jpg", "Selo Lactose.jpg"]);
+createProduct('Milk Shake','3 bolas de sorvete de creme, 2 doses (80 ml) de café expresso, 50 ml de calda de chocolate, 100 ml de leite e castanha de caju picadinha.','Milk Shake.jpg','R$29,99', ["Selo Açúcar.jpg", "Selo Glúten.jpg", "Selo Lactose.jpg"]);
 
 
 

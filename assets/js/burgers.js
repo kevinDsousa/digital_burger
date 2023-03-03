@@ -10,12 +10,12 @@ function createProduct(title, description, itens, valor , components) {
     const HTML = (`
     <div class="content">
         <div class="pictures">
-            <img src="./assets/images/${itens}" alt="">
+            <img src="./assets/images/Burgers/${itens}" alt="">
             <div class="components">
                 <ul>
-                    <li><img src="${components[0]}"></img></li>
-                    <li><img src="${components[1]}"></img></li>
-                    <li><img src="${components[2]}"></img></li>
+                    <li><img src="./assets/images/Selos/${components[0]}"></img></li>
+                    <li><img src="./assets/images/Selos/${components[1]}"></img></li>
+                    <li><img src="./assets/images/Selos/${components[2]}"></img></li>
                 </ul>
             </div>
         </div>
@@ -31,9 +31,9 @@ function createProduct(title, description, itens, valor , components) {
     TAG.appendChild(ITEM);    
 }
 
-createProduct('PhP Burger','Pão de beterraba, burger suíno de 150g, bacon, queijo muçarela, maçã caramelizada, alface e maionese especial.','Burgers/Burger 1.jpg','R$20,99', ["/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg", "/assets/images/Selos/Selo Vegetariano.jpg"]);
-createProduct('Git Mac','Pão australiano tostado na manteiga, duas carnes de 100g da casa, dois bacons, duas fatias de queijo cheddar, alface, tomate, molho de ervas e barbecue.','Burgers/Burger 2.jpg','R$30,99', ["/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg", "/assets/images/Selos/Selo Vegetariano.jpg"]);
-createProduct('C++ Burger','Pão brioche, duas carnes de 100g, duas fatias de queijo cheddar, quatro anéis de cebola e nosso maravilhoso molho da casa.','Burgers/Burger 3.jpg','R$24,99', ["/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg", "/assets/images/Selos/Selo Vegetariano.jpg"]);
-createProduct('Javas Burger','São 3 hambúrgueres de Angus 120 g, 3 fatias de cheddar, 3 fatias de bacon, maionese temperada da casa, alface e tomate no pão brioche.','Burgers/Burger 4.jpg','R$32,99', ["/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg", "/assets/images/Selos/Selo Vegetariano.jpg"]);
-createProduct('Phyton Burger','Feito com queijo muçarela, carne de 160 g da casa, cebola roxa caramelizada e maionese de bacon artesanal no pão brioche.','Burgers/Burger 5.jpg','R$22,99', ["/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg", "/assets/images/Selos/Selo Vegetariano.jpg"]);
-createProduct('React Burger','Feito com queijo muçarela de búfala, carne de 160 g da casa, tomate seco artesanal, molho de pesto e rúcula no pão brioche.','Burgers/Burger 6.jpg','R$21,99', ["/assets/images/Selos/Selo Glúten.jpg", "/assets/images/Selos/Selo Lactose.jpg", "/assets/images/Selos/Selo Vegetariano.jpg"]);
+createProduct('PhP Burger','Pão de beterraba, burger suíno de 150g, bacon, queijo muçarela, maçã caramelizada, alface e maionese especial.','Burger 1.jpg','R$20,99', ["Selo Glúten.jpg", "Selo Lactose.jpg", "Selo Vegetariano.jpg"]);
+createProduct('Git Mac','Pão australiano tostado na manteiga, duas carnes de 100g da casa, dois bacons, duas fatias de queijo cheddar, alface, tomate, molho de ervas e barbecue.','Burger 2.jpg','R$30,99', ["Selo Glúten.jpg", "Selo Lactose.jpg", "Selo Vegetariano.jpg"]);
+createProduct('C++ Burger','Pão brioche, duas carnes de 100g, duas fatias de queijo cheddar, quatro anéis de cebola e nosso maravilhoso molho da casa.','Burger 3.jpg','R$24,99', ["Selo Glúten.jpg", "Selo Lactose.jpg", "Selo Vegetariano.jpg"]);
+createProduct('Javas Burger','São 3 hambúrgueres de Angus 120 g, 3 fatias de cheddar, 3 fatias de bacon, maionese temperada da casa, alface e tomate no pão brioche.','Burger 4.jpg','R$32,99', ["Selo Glúten.jpg", "Selo Lactose.jpg", "Selo Vegetariano.jpg"]);
+createProduct('Phyton Burger','Feito com queijo muçarela, carne de 160 g da casa, cebola roxa caramelizada e maionese de bacon artesanal no pão brioche.','Burger 5.jpg','R$22,99', ["Selo Glúten.jpg", "Selo Lactose.jpg", "Selo Vegetariano.jpg"]);
+createProduct('React Burger','Feito com queijo muçarela de búfala, carne de 160 g da casa, tomate seco artesanal, molho de pesto e rúcula no pão brioche.','Burger 6.jpg','R$21,99', ["Selo Glúten.jpg", "Selo Lactose.jpg", "Selo Vegetariano.jpg"]);
