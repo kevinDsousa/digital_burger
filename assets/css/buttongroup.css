@@ -1,0 +1,64 @@
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  
+  .btn-evaluate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #252525;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btn-evaluate:hover {
+    transform: translateY(-10px);
+    transition-duration: 0.2s;
+  }
+  
+  .btn-evaluate i {
+    color: #fff;
+  }
+  .button-group {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .btn-back-to-top {
+    display: block;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #252525;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .btn-feedback {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #252525;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
