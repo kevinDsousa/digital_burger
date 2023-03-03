@@ -47,6 +47,9 @@
     text-align: center;
     cursor: pointer;
   }
+  .btn-back-to-top:hover{
+    color: #ff8233;
+  }
   
   .btn-feedback {
     display: block;
