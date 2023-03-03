@@ -2,6 +2,14 @@
 
 
 /*logo*/
+.image-banner{
+    width: 100vw;
+}
+.image-banner img{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header-banner{
     display: flex;
     padding-top: 10px;
@@ -110,7 +118,7 @@
     cursor: pointer;
     margin: 30px 10px;
     padding: 10px;
-    height: 190px;
+    height: 200px;
     display: flex;
     border-radius: 7px;
     transition: transform 0.1s ease-in, box-shadow 0.2s ease-in-out;
@@ -182,6 +190,22 @@
 @media only screen and (max-width: 768px){
     .headNav{
     }
+    .onScroll{
+        height: 80vh;
+    }
+    .produtos .title{
+        margin: 50px 0 20px 0;
+    }
+    .produtos .title::after{
+        display: none;
+    }
+    .produtos .title::before{
+        display: none;
+    }
+    .content{
+        width: 600px;
+        margin: 10px auto;
+    }
     #combos,
     #entradas,
     #burgers,
@@ -190,5 +214,8 @@
     {
         display: flex;
         flex-wrap: wrap;
+    }
+    .maps{
+        display: none;
     }
 }
