@@ -12,6 +12,7 @@
 
 .header-banner{
     display: flex;
+    position: relative;
     padding-top: 10px;
     justify-content: center;
     max-width: 1600px;
@@ -19,19 +20,10 @@
 
 .banner-logo{
     position: absolute;
-    padding-top: 20px;
-    padding-left: 90px;
+    top: 10%;
+    left: 39%;
 
 }
-.social-icons{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 163vh;
-    top: 15vh;
-    size-adjust: 30%;
-}
-
 .row .col{
     text-align: center;
     justify-content: space-between;
@@ -188,20 +180,53 @@
     font-family: var(--font-title2);
 }
 
+/*footer*/
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.footer-content img{
+    width: 200px;
+}
+
+.footer .copy{
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.footer .copy p{
+    margin-top: 5px;
+}
+
 @media only screen and (max-width: 768px){
-    .headNav{
+    .banner-logo{
+        top: 4%;
+        left: 37%;
+        right: 22%;
+    }
+    .banner-logo img{
+        width: 90%;
     }
     .onScroll{
-        height: 80vh;
+        flex-direction: row;
+        width: 100vw;
+        height: 100px;
+        align-items: center;
+        background-color: #252525d8;
+    }
+    .produtos{
+        width: 90%;
+        margin: auto;
+        padding: 0;
     }
     .produtos .title{
         margin: 50px 0 20px 0;
-    }
-    .produtos .title::after{
-        display: none;
-    }
-    .produtos .title::before{
-        display: none;
     }
     .content{
         width: 600px;
@@ -214,9 +239,10 @@
     #sobremesas
     {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
     }
-    .maps{
-        display: none;
+    .footer-content .maps iframe{
+        width: 500px;
     }
 }
