@@ -61,4 +61,58 @@
     cursor: pointer;
     margin-top: 10px;
   }
+  .btn-feedback:hover{
+    color: #ff8233;
+  }
   
+
+  .modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-header {
+    background-color: #252525;
+    color: #fff;
+  }
+  .modal-body p{
+    font-family: var(--font-title2);
+    font-weight: 400;
+  }
+  .modal-body label{
+    font-family: var(--font-text2);
+    font-weight: 500;
+  }
+  .modal-body{
+    background-color: #fff;
+  }
+  .modal-title {
+    font-weight: normal;
+    font-family: var(--font-title2);
+  }
+  
+  .form-check-input {
+    margin-top: 0.25rem;
+    margin-right: 0.5rem;
+  }
+  
+  .form-check-label {
+    font-weight: normal;
+
+  }
+  
+  .form-group {
+    margin-top: 1rem;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+  }
+  
+  .btn-submmit {
+    margin-top: 1rem;
+    float: right;
+    background-color: #ff8233;
+  }
