@@ -180,30 +180,6 @@
     font-family: var(--font-title2);
 }
 
-/*footer*/
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 20px;
-}
-
-.footer-content img{
-    width: 200px;
-}
-
-.footer .copy{
-    text-align: center;
-    align-items: center;
-    border-top: 1px solid #fff;
-    margin-top: 50px;
-}
-
-.footer .copy p{
-    margin-top: 5px;
-}
-
 @media only screen and (max-width: 768px){
     .banner-logo{
         top: 4%;
@@ -242,7 +218,11 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-    .footer-content .maps iframe{
-        width: 500px;
+
+    .produtos .title::before {
+        width: 35%;
+    }
+    .produtos .title::after {
+        width: 35%;
     }
 }

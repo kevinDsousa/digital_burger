@@ -79,11 +79,11 @@ nav i{
     background-color: var(--bg-color);
 }
 
-.footer .footer-content .local {
+.footer-content{
     display: flex;
     align-items: center;
-    gap: 10px;
-    width: 40%;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .footer .footer-content h3 {
@@ -91,6 +91,10 @@ nav i{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.700);
     font-size: 22px;
     font-family: var(--font-title2);
+}
+
+.footer-content img{
+    width: 200px;
 }
 
 .footer .local {
@@ -105,8 +109,26 @@ nav i{
     font-size: 10px;
 }
 
+.footer .copy{
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.footer .copy p{
+    margin-top: 5px;
+}
+
 .maps iframe{
     outline: 2px solid var(--bg2-color);
     border-radius: 10px;
+    margin: 20px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-content .maps iframe{
+        width: 500px;
+    }
 }
 
