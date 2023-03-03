@@ -13,9 +13,9 @@ function createProduct(title, description, itens, valor , components) {
             <img src="./assets/images/Burgers/${itens}" alt="">
             <div class="components">
                 <ul>
-                    <li><img src="/assets/images/Selos/${components[0]}"></img></li>
-                    <li><img src="/assets/images/Selos/${components[1]}"></img></li>
-                    <li><img src="/assets/images/Selos/${components[2]}"></img></li>
+                    <li><img src="./assets/images/Selos/${components[0]}"></img></li>
+                    <li><img src="./assets/images/Selos/${components[1]}"></img></li>
+                    <li><img src="./assets/images/Selos/${components[2]}"></img></li>
                 </ul>
             </div>
         </div>
