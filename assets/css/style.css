@@ -2,8 +2,17 @@
 
 
 /*logo*/
+.image-banner{
+    width: 100vw;
+}
+.image-banner img{
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header-banner{
     display: flex;
+    position: relative;
     padding-top: 10px;
     justify-content: center;
     max-width: 1600px;
@@ -11,19 +20,10 @@
 
 .banner-logo{
     position: absolute;
-    padding-top: 20px;
-    padding-left: 90px;
+    top: 10%;
+    left: 39%;
 
 }
-.social-icons{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    left: 163vh;
-    top: 15vh;
-    size-adjust: 30%;
-}
-
 .row .col{
     text-align: center;
     justify-content: space-between;
@@ -53,6 +53,7 @@
 .onScroll .col img {
     width: 80px;
 }
+
 
 /*Produtos*/
 #categorias{
@@ -110,7 +111,7 @@
     cursor: pointer;
     margin: 30px 10px;
     padding: 10px;
-    height: 190px;
+    height: 200px;
     display: flex;
     border-radius: 7px;
     transition: transform 0.1s ease-in, box-shadow 0.2s ease-in-out;
@@ -180,7 +181,32 @@
 }
 
 @media only screen and (max-width: 768px){
-    .headNav{
+    .banner-logo{
+        top: 4%;
+        left: 37%;
+        right: 22%;
+    }
+    .banner-logo img{
+        width: 90%;
+    }
+    .onScroll{
+        flex-direction: row;
+        width: 100vw;
+        height: 100px;
+        align-items: center;
+        background-color: #252525d8;
+    }
+    .produtos{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+    }
+    .produtos .title{
+        margin: 50px 0 20px 0;
+    }
+    .content{
+        width: 600px;
+        margin: 10px auto;
     }
     #combos,
     #entradas,
@@ -189,6 +215,14 @@
     #sobremesas
     {
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .produtos .title::before {
+        width: 35%;
+    }
+    .produtos .title::after {
+        width: 35%;
     }
 }

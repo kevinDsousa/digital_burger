@@ -5,7 +5,7 @@
 const TAGH = document.querySelector(".headNav");
 const HTMLHEAD = (`
 <div class="header-navbar">
-            <nav class="container nav navbar header-navbar-topics justify-content-between">
+            <nav class="container nav navbar header-navbar-topics">
                 <div class="image">
                     <img src="assets/images/logo-white.png" alt="">
                 </div>
