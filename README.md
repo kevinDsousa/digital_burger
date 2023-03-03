@@ -3,13 +3,18 @@ Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo 
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp; | &nbsp;&nbsp;&nbsp;
+  <a href="#-telas">Telas</a>
 
 </p>
 
 <br>
+<h2>Scanear QR code para ver o site completo</h2>
+<img src="./github/QRcode.jpeg">
 
-## 🚀 Tecnologias
+<br>
+
+## Tecnologias usadas 
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -19,12 +24,28 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![Maintainer](https://img.shields.io/badge/Framework-Bootstrap-red)
 
 
-## 💻 Projeto
+## Mais sobre o Projeto
 
 Cardápio online da digital burger para o auxilio dos clientes e funcionarios agilizando o atendimento.
 
-### Telas
-Em construcao
+## Telas
+
+### Cardápio
+
+<img src="./github/cardapio1.png"><br>
+<img src="./github/cardapio2.png"><br>
+<img src="./github/cardapio3.png"><br>
+<img src="./github/cardapio4.png">
+
+### Quem somos
+
+<img src="./github/sobre.png"><br>
+<img src="./github/cadu.png"><br>
+<img src="./github/sobre1.png"><br>
+
+### Login
+
+<img src="./github/login.png">
 
 ## Proposto pela Digital college um cardápio online.
 
