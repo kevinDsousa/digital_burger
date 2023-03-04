@@ -62,7 +62,7 @@
 
 .produtos {
     position: relative;
-    margin-left: 120px;
+    margin: 0 20px 0 120px;
 }
 
 .produtos .title {
@@ -110,7 +110,8 @@
 .content {
     cursor: pointer;
     margin: 30px 10px;
-    padding: 10px;
+    padding: 5px;
+    justify-content: center;
     height: 200px;
     display: flex;
     border-radius: 7px;
@@ -129,8 +130,8 @@
 }
 
 .content .pictures img {
-    width: 150px;
-    height: 120px;
+    width: 8rem;
+    height: 8rem;
     border-radius: 10px;
 }
 
