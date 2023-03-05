@@ -4,7 +4,7 @@ function menuLateral() {
     if(scrolled > 700 && scrolled < 3300) {
         document.getElementById("categorias").classList.add("onScroll")
     } 
-    else if (screenSize < 800 && scrolled > 700 && scrolled < 6600){
+    else if (screenSize < 800 && scrolled > 700 && scrolled < 7000){
         document.getElementById("categorias").classList.add("onScroll")
     }
     else {
