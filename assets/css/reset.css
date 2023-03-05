@@ -8,7 +8,8 @@
     box-sizing: border-box;
     outline: none;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;    
+    font-family: var(--font-text2);
 }
 
 :root {
@@ -24,10 +25,7 @@
 }
 
 body {
-    font-family: var(--font-text2);
     background-color: #EDE7E2;
-    width: 100%;
-    height: 100vh;
 }
 
 /*navbar*/
@@ -67,6 +65,32 @@ nav div h4{
 }
 nav i{
     margin: 0 10px;
+}
+
+/*nav*/
+.header-navbar-topics{
+    display: flex;
+    align-items: center;
+}
+.header-navbar-topics .image{
+    display: inline;
+    width: 25%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
 }
 
 /*Footer*/

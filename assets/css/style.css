@@ -1,7 +1,7 @@
 @import url("./reset.css");
 
-
 /*logo*/
+
 .image-banner{
     width: 100vw;
 }
@@ -225,5 +225,89 @@
     }
     .produtos .title::after {
         width: 35%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 12vh;
+        right: 0;
+        width: 50vw;
+        height: 90vh;
+        background: #252525d8;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 1;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li{
+        margin: 0;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .menu.active{
+        display: flex;        
+        transition: 0.7s ease-in;
+    }
+
+    #categorias .col img {
+        width: 50px;
+    }
+
+    #combos .content .pictures,
+    #entradas .content .pictures,
+    #bebidas .content .pictures{
+        display: block;
+        text-align: center;
+    }
+    #combos .content .pictures img,
+    #entradas .content .pictures img,
+    #bebidas .content .pictures img{
+        width: 50%;
+        height: auto;
+    }
+
+    .onScroll .col img {
+        width: 36px;
+    }
+
+    .content{
+        width: 300px;
+        height: auto;
+        margin: 10px auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+    }
+    .content .pictures{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 5px;
+    }
+    .content .pictures img{
+        width: 90px;
+        height: 90px;
+    }
+    .content .pictures-text{
+        width: 90%;
+        margin-left: 0;
+    }
+    .content .pictures-text h2{
+        width: 100%;
+        margin: 8px auto;
+
+    }
+    footer{
+        width: 100vw;
+    }
+    .footer-content .maps iframe{
+        width: 200px;
     }
 }
