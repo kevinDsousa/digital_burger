@@ -2,9 +2,9 @@
 Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo uma boa experiência e facilitação no atendimento.
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp; | &nbsp;&nbsp;&nbsp;
-  <a href="#-telas">Telas</a>
+  <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#projeto">Projeto</a>&nbsp; | &nbsp;&nbsp;&nbsp;
+  <a href="#telas">Telas</a>
 
 </p>
 
@@ -14,7 +14,7 @@ Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo 
 
 <br>
 
-## Tecnologias usadas 
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ![Maintainer](https://img.shields.io/badge/Framework-Bootstrap-red)
 
 
-## Mais sobre o Projeto
+## Projeto
 
 Cardápio online da digital burger para o auxilio dos clientes e funcionarios agilizando o atendimento.
 
