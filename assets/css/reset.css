@@ -67,6 +67,32 @@ nav i{
     margin: 0 10px;
 }
 
+/*nav*/
+.header-navbar-topics{
+    display: flex;
+    align-items: center;
+}
+.header-navbar-topics .image{
+    display: inline;
+    width: 25%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
 /*Footer*/
 
 .footer {
