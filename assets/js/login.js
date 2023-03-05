@@ -4,7 +4,7 @@ addEventListener('submit', (e) => {
     let senha = document.querySelector("#senha").value; 
     if(login == "digitalburger@gmail.com" && senha == "digital123") {
         alert("Conectado com o sistema");
-        window.location.href = "http://127.0.0.1:5500/cad-produtos.html";
+        window.location.href = "https://kevindik.github.io/digital_burger/cad-produtos";
     }
 });
 
