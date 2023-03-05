@@ -255,7 +255,7 @@
 }
 
 @media only screen and (max-width: 400px){
-    
+
     .menu{
         display: none;
         position: absolute;
@@ -282,6 +282,7 @@
         display: flex;        
         transition: 0.7s ease-in;
     }
+
     #combos .content .pictures,
     #entradas .content .pictures,
     #bebidas .content .pictures{
@@ -294,6 +295,11 @@
         width: 50%;
         height: auto;
     }
+
+    .onScroll .col img {
+        width: 36px;
+    }
+
     .content{
         width: 300px;
         height: auto;
