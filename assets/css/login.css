@@ -67,4 +67,5 @@
     color: #fff;
     font-weight: bolder;
     background-color: var(--title-color);
+    cursor: pointer;
 }
