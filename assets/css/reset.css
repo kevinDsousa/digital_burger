@@ -93,6 +93,45 @@ nav i{
     margin: 8px;
 }
 
+/*TV*/
+@media only screen and (max-width: 1200px) {
+    .nav div img {
+        width: 10px;
+    }
+    .nav .nav-item a {
+        font-size: 30px;
+    }
+}
+/*laptop*/
+@media only screen and (max-width: 1024px) {
+    .nav div img {
+        width: 120px;
+    }
+    .nav .nav-item a {
+        font-size: 25px;
+    }
+    
+}
+/*tablet*/
+@media only screen and (max-width: 768px) {
+    .nav div img {
+        width: 80px;
+    }
+    .nav .nav-item a {
+        font-size: 15px;
+    }
+}
+/*mobile*/
+@media only screen and (max-width: 480px) {
+    .nav div img {
+        width: 60px;
+    }
+    .nav .nav-item a {
+        font-size: 15px;
+        padding: 8px;
+    }
+}
+
 /*Footer*/
 
 .footer {
@@ -150,9 +189,9 @@ nav i{
     margin: 20px 0;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 480px) {
     .footer-content .maps iframe{
-        width: 500px;
+        width: 100%;
     }
 }
-
