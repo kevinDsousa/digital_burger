@@ -28,135 +28,81 @@
       </ul>
     </nav>
   </header>
-  <div class="container mt-5 white">
-    <table class="table">
-      <h2 class="d-flex justify-content-between">
-        Produtos <button class="btn btn-primary">Novo produto</button>
-      </h2>
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">nome do produto</th>
-          <th scope="col">imagem</th>
-          <th scope="col">categoria</th>
-          <th scope="col">Preço</th>
-          <th scope="col">Ações</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Python Burger</td>
-          <td><img src="./assets/images/Burgers/Burger 5.jpg" alt=""></td>
-          <td>Burgers</td>
-          <td>R$ 20,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Php Burger</td>
-          <td><img src="./assets/images/Burgers/Burger 1.jpg" alt=""></td>
-          <td>Burgers</td>
-          <td>R$ 32,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Javas Burger</td>
-          <td><img src="./assets/images/Burgers/Burger 4.jpg" alt=""></td>
-          <td>Burgers</td>
-          <td>R$ 22,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>Agua sem Gas</td>
-          <td><img src="./assets/images/bebidas/Água sem Gás.jpg" alt=""></td>
-          <td>Bebidas</td>
-          <td>R$ 06,00</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>Suco</td>
-          <td><img src="./assets/images/bebidas/Sucos Variados.jpg" alt=""></td>
-          <td>Bebidas</td>
-          <td>R$ 10,00</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>Agua com Gas</td>
-          <td><img src="./assets/images/bebidas/Água com Gás.jpg" alt=""></td>
-          <td>Bebidas</td>
-          <td>R$ 06,00</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">7</th>
-          <td>React Burger</td>
-          <td><img src="./assets/images/Burgers/Burger 6.jpg" alt=""></td>
-          <td>Burgers</td>
-          <td>R$ 21,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">8</th>
-          <td>Batata Frita</td>
-          <td><img src="./assets/images/Entradas/Batata Frita.jpg" alt=""></td>
-          <td>Entradas</td>
-          <td>R$ 19,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">9</th>
-          <td>Onion Rings</td>
-          <td><img src="./assets/images/Entradas/Onion Rings.jpg" alt=""></td>
-          <td>Entradas</td>
-          <td>R$ 24,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">10</th>
-          <td>Nuggets de Frango</td>
-          <td><img src="./assets/images/Entradas/Nuggets de Frango.jpg" alt=""></td>
-          <td>Entradas</td>
-          <td>R$ 19,99</td>
-          <td>
-            <button class="btn btn-warning">Editar</button>
-            <button class="btn btn-danger">Deletar</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="d-flex justify-content-between">Lista de produtos <button class="btn btn-primary" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Novo
+            produto</button>
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Icone</th>
+              <th scope="col">Preço</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Categoria</th>
+            </tr>
+          </thead>
+          <tbody id="tabela"></tbody>
+        </table>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Cadastrar</h5>
+            <button type="button" id="cadastro-fechar" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form id="cadastro" onsubmit="adicionarProdutos()">
+              <label class="form-label" for="">Item: </label>
+              <input type="text" id="item" class="form-control" placeholder="Descreva o nome do produto" required />
+
+              <label class="form-label mt-2">Icone: </label>
+              <input type="file" id="imagem" class="form-control" placeholder="Envie uma imagem" required />
+
+              <label class="form-label mt-2">Preço: </label>
+              <input type="tel" id="preco" class="form-control" placeholder="Preço" required />
+
+              <label class="form-label mt-2">Descrição: </label>
+              <input type="text" id="descricao" class="form-control" placeholder="Descrição do produto" required />
+
+              <button type="submit" class="btn btn-primary w-100 mt-3">Enviar</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightEditar"
+          aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Editar</h5>
+            <button type="button" id="editar-fechar" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form id="editar" onsubmit="editarProdutos()">
+              <label class="form-label" for="">Item: </label>
+              <input type="text" id="item" class="form-control" placeholder="Descreva o nome do produto" required />
+
+              <label class="form-label mt-2">Icone: </label>
+              <input type="file" id="imagem" class="form-control" placeholder="Envie uma imagem" required />
+
+              <label class="form-label mt-2">Preço: </label>
+              <input type="tel" id="preco" class="form-control" placeholder="Preço" required />
+
+              <label class="form-label mt-2">Descrição: </label>
+              <input type="text" id="descricao" class="form-control" placeholder="Descrição do produto" required />
+
+              <button type="submit" class="btn btn-primary w-100 mt-3">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+    <script src="./assets/js/Cadprodutos.js"></script>
 </body>
 
 </html>
