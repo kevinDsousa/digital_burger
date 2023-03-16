@@ -1,7 +1,10 @@
+import logo from '../../images/logos/logo.png'
+import './Header.css'
+
 export default function Header() {
     return(
-        <header className="bg-header">
-            <img src=""/>
+        <header className="db-header">
+            <img src={logo}/>
             <nav>
                 <ul>
                     <li>Sobre Nós</li>

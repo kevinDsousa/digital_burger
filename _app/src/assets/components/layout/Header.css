@@ -1,0 +1,7 @@
+@import url('../../../index.css');
+
+/*Header style*/
+
+.db-header {
+    background-color: var(--bg-color);
+}

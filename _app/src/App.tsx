@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import './App.css'
-import Navigate from './components/routes/Navigate'
+import Navigate from './assets/components/routes/Navigate'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
 
   return (
     <div className="App">
@@ -11,5 +9,3 @@ function App() {
     </div>
   )
 }
-
-export default App
