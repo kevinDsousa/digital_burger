@@ -3,7 +3,8 @@
 /*Header style*/
 
 .db-header {
-    background-color: var(--bg-color);
+    background-image: url('../../../images/Backgrounds/bg.svg');
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     padding: 20px;
