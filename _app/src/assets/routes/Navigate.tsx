@@ -1,8 +1,8 @@
 import { Routes, Route, BrowserRouter as Router } from 'react-router-dom'
-import Cardapio from '../pages/Cardapio'
-import QuemSomos from '../pages/QuemSomos'
-import Login from '../pages/Login'
-import Admin from '../pages/Admin'
+import Cardapio from '../components/pages/Cardapio'
+import QuemSomos from '../components/pages/QuemSomos'
+import Login from '../components/pages/Login'
+import Admin from '../components/pages/Admin'
 
 export default function Navigate() {
     return (

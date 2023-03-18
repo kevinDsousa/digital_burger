@@ -1,5 +1,5 @@
 import './App.css'
-import Navigate from './assets/components/routes/Navigate'
+import Navigate from './assets/routes/Navigate'
 
 export default function App() {
 
