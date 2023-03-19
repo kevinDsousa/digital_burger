@@ -1,3 +1,11 @@
+@import url('../../../App.css');
+
+.db-products-title {
+    text-align: center;
+    font-family: var(--font-title2);
+    font-size: 30px;
+    margin: 10px
+}
 .db-products {
     display: grid;
     grid-template-columns: 1fr 1fr;
