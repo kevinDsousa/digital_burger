@@ -1,7 +1,6 @@
 /*Footer*/
 
 .db-footer {
-    background-image: url(../../../images/Backgrounds/bg.svg);
     background-attachment: fixed;
-    
+    background-color: var(--bg-color);
 }
