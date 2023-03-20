@@ -19,6 +19,11 @@
     width: 40%;
 }
 
+.db-product div:first-child img {
+    width: 80%;
+    border-radius: 5px;
+}
+
 
 .db-product div:last-child {
     width: 60%;
