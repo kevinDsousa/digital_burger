@@ -1,0 +1,67 @@
+@import url(../../../App.css);
+/*Footer*/
+
+.db-footer {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: var(--font-text);
+    color: var(--text-color);
+    position: relative;
+}
+
+.db-footer .db-footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.db-footer .db-footer-top .db-footer-logo {
+    margin-left: 100px
+}
+
+.db-footer .db-footer-top .db-footer-logo img {
+    width: 150px;
+}
+
+.db-footer div:first-child .db-footer-informations {
+    display: block;
+    margin-right: 20px;
+}
+
+.db-footer div:first-child .db-footer-informations h3 {
+    font-family: var(--font-title2);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.637);
+}
+
+.db-footer div:first-child .db-footer-informations p {
+    font-size: 16px;
+}
+
+.db-footer div:first-child .db-footer-informations span {
+    color: var(--title-color)
+}
+
+.db-footer .db-footer-top div:nth-child(3) iframe{
+    border: 2px solid var(--title-color);
+    border-radius: 10px;
+}
+
+.db-footer .db-footer-bottom {
+    margin-top: 10px;
+    height: 0px;
+}
+
+.db-footer .db-footer-bottom::before {
+    content: '';
+    z-index: 1;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    background-color: var(--text-color);
+}

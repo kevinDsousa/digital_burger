@@ -60,6 +60,31 @@
     margin: 0 auto;
 }
 
+/*TV*/
+@media only screen and (max-width: 1200px) {
+    .container-fluid .col a img {
+        width: 150px;
+    }
+}
+/*laptop*/
+@media only screen and (max-width: 1024px) {
+    .container-fluid .col a img {
+        width: 130px;
+    }
+}
+/*tablet*/
+@media only screen and (max-width: 768px) {
+    .container-fluid .col a img {
+        width: 100px;
+    }
+}
+/*mobile*/
+@media only screen and (max-width: 480px) {
+    .container-fluid .col a img {
+        width: 60px;
+    }
+}
+
 .produtos {
     position: relative;
     margin: 0 20px 0 120px;
@@ -124,6 +149,27 @@
     border-radius: 8px;
 }
 
+
+@media only screen and (max-width: 1200px) {
+    .container-fluid .col a img { 
+        width: 80px;
+    }
+}
+
+/*mobile*/
+@media only screen and (max-width: 480px) {
+    .produtos .content{
+        width: 450px;
+        height: 250px;
+    }
+
+    .produtos .content .pictures img {
+        width: 80%;
+    }
+    .container-fluid .col a img {
+        width: 50px;
+    }
+}
 .content:hover {
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
     transform: scale(1.01);
@@ -181,7 +227,7 @@
     font-family: var(--font-title2);
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 480px){
     .banner-logo{
         top: 4%;
         left: 37%;
@@ -206,7 +252,7 @@
         margin: 50px 0 20px 0;
     }
     .content{
-        width: 600px;
+        width: 500px;
         margin: 10px auto;
     }
     #combos,
@@ -228,86 +274,3 @@
     }
 }
 
-@media only screen and (max-width: 364px){
-
-    .menu{
-        display: none;
-        position: absolute;
-        top: 12vh;
-        right: 0;
-        width: 50vw;
-        height: 90vh;
-        background: #252525d8;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        z-index: 1;
-    }
-    .menu ul {
-        flex-direction: column;
-    }
-    .menu ul li{
-        margin: 0;
-    }
-    .mobile-menu{
-        display: block;
-    }
-    .menu.active{
-        display: flex;        
-        transition: 0.7s ease-in;
-    }
-
-    #categorias .col img {
-        width: 50px;
-    }
-
-    #combos .content .pictures,
-    #entradas .content .pictures,
-    #bebidas .content .pictures{
-        display: block;
-        text-align: center;
-    }
-    #combos .content .pictures img,
-    #entradas .content .pictures img,
-    #bebidas .content .pictures img{
-        width: 50%;
-        height: auto;
-    }
-
-    .onScroll .col img {
-        width: 36px;
-    }
-
-    .content{
-        width: 300px;
-        height: auto;
-        margin: 10px auto;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 5px;
-    }
-    .content .pictures{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 5px;
-    }
-    .content .pictures img{
-        width: 90px;
-        height: 90px;
-    }
-    .content .pictures-text{
-        width: 90%;
-        margin-left: 0;
-    }
-    .content .pictures-text h2{
-        width: 100%;
-        margin: 8px auto;
-
-    }
-    footer{
-        width: 100vw;
-    }
-    .footer-content .maps iframe{
-        width: 200px;
-    }
-}
