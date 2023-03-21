@@ -44,7 +44,7 @@
     top: 0;
     flex-direction: column;
     height: 100vh;
-    width: 120px;
+    width: 120px !important;
     background-color: var(--bg-color);
     transition: 0.3s;
     z-index: 1;
@@ -238,7 +238,7 @@
     }
     .onScroll{
         flex-direction: row;
-        width: 100vw;
+        width: 100% !important;
         height: 100px;
         align-items: center;
         background-color: #252525d8;
