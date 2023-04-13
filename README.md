@@ -13,7 +13,7 @@ Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo 
 </p>
 
 <br>
-<h2>Scanear QR code para ver o site completo</h2>
+<h2>Scanear o QR code para ver o site completo</h2>
 <img src="./github/QRcode.jpeg">
 
 <br>
