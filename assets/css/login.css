@@ -1,3 +1,16 @@
+:root {
+    --font-text : 'Inter', sans-serif;
+    --font-text2: 'Roboto Condensed', sans-serif;
+    --font-title: 'Roboto Condensed', sans-serif;
+    --font-title2: 'Tilt Warp', cursive;
+    --text-color: #fff;
+    --bg-color: #252525;
+    --bg2-color: #FF8233;
+    --dc-color: #C60D66;
+    --title-color: #D62603;
+}
+
+
 *,
 *::before,
 *::after {
@@ -8,14 +21,14 @@
 
 body,
 input {
-  font-family: "Poppins", sans-serif;
+  font-family: "", sans-serif;
 }
 
 main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #ff8c6b;
+  background-color: var(--bg-color);
   padding: 2rem;
   display: flex;
   align-items: center;
