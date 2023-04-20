@@ -23,14 +23,15 @@
 
 body,
 input {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-title), sans-serif;
+  font-weight: bold;
 }
 
 main {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
-  background-color: #ff8c6b;
+  background-color: var(--bg-color);
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -125,7 +126,7 @@ form.sign-up-form {
 }
 
 .toggle:hover {
-  color: #8371fd;
+  color: var(--bg2-color);
 }
 
 .input-wrap {
@@ -183,7 +184,7 @@ label {
 }
 
 .sign-btn:hover {
-  background-color: #8371fd;
+  background-color: var(--bg2-color);
 }
 
 .text {
@@ -197,7 +198,7 @@ label {
 }
 
 .text a:hover {
-  color: #8371fd;
+  color: var(--bg2-color);
 }
 
 main.sign-up-mode form.sign-in-form {
@@ -224,7 +225,7 @@ main.sign-up-mode .carousel {
   width: 55%;
   left: 45%;
   top: 0;
-  background-color: #ffe0d2;
+  background-color: #FF8233;
   border-radius: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
