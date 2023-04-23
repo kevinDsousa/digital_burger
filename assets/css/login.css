@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --font-text : 'Inter', sans-serif;
     --font-text2: 'Roboto Condensed', sans-serif;
@@ -407,4 +408,71 @@ main.sign-up-mode .carousel {
   form {
     padding: 1rem 2rem 1.5rem;
   }
+=======
+@import url("./reset.css");
+
+.container {
+    background-image: url("../images/sobre/bgSobre.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    border-radius: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--font-title2);
+    font-size: 26;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.content div form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content div form label {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.content div form input {
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.content div form button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: var(--title-color);
+    cursor: pointer;
+>>>>>>> 53ca25ccfefeaf4b28b34c5f4a4b054af9513033
 }

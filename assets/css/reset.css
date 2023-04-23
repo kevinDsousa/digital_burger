@@ -8,7 +8,8 @@
     box-sizing: border-box;
     outline: none;
     list-style: none;
-    text-decoration: none;
+    text-decoration: none;    
+    font-family: var(--font-text2);
 }
 
 :root {
@@ -24,10 +25,7 @@
 }
 
 body {
-    font-family: var(--font-text2);
     background-color: #EDE7E2;
-    width: 100%;
-    height: 100vh;
 }
 
 /*navbar*/
@@ -50,6 +48,8 @@ nav div h4{
 }
 .headNav {
     background-color: #252525;
+    width: 100%;
+    margin: auto;
 }
 
 .header-navbar-topics  ul li a{
@@ -67,12 +67,74 @@ nav i{
     margin: 0 10px;
 }
 
+/*nav*/
+.header-navbar-topics{
+    display: flex;
+    align-items: center;
+}
+.header-navbar-topics .image{
+    display: inline;
+    width: 25%;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+}
+.mobile-menu{
+    display: none;
+    cursor: pointer;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+/*TV*/
+@media only screen and (max-width: 1200px) {
+    .nav div img {
+        width: 10px;
+    }
+    .nav .nav-item a {
+        font-size: 30px;
+    }
+}
+/*laptop*/
+@media only screen and (max-width: 1024px) {
+    .nav div img {
+        width: 120px;
+    }
+    .nav .nav-item a {
+        font-size: 25px;
+    }
+    
+}
+/*tablet*/
+@media only screen and (max-width: 768px) {
+    .nav div img {
+        width: 80px;
+    }
+    .nav .nav-item a {
+        font-size: 15px;
+    }
+}
+/*mobile*/
+@media only screen and (max-width: 480px) {
+    .nav div img {
+        width: 60px;
+    }
+    .nav .nav-item a {
+        font-size: 15px;
+        padding: 8px;
+    }
+}
+
 /*Footer*/
 
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--text-color);
     font-family: var(--font-text);
     padding: 10px;
@@ -80,18 +142,11 @@ nav i{
     background-color: var(--bg-color);
 }
 
-.footer .footer-content {
+.footer-content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.footer .footer-content .local {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 40%;
 }
 
 .footer .footer-content h3 {
@@ -100,11 +155,9 @@ nav i{
     font-size: 22px;
     font-family: var(--font-title2);
 }
- 
-.footer img {
-    width: 100px;
-    height: 60px;
-    margin: 0 auto;
+
+.footer-content img{
+    width: 200px;
 }
 
 .footer .local {
@@ -119,28 +172,26 @@ nav i{
     font-size: 10px;
 }
 
+.footer .copy{
+    text-align: center;
+    align-items: center;
+    border-top: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.footer .copy p{
+    margin-top: 5px;
+}
+
 .maps iframe{
     outline: 2px solid var(--bg2-color);
     border-radius: 10px;
+    margin: 20px 0;
 }
 
-.footer .footer-content .copy {
-    color: white;
-    font-size: 12px;
-    width: 100%;
-    text-align: center;
-}
 
-.footer .footer-content .copy p {
-    margin-top: 20px;
-}
-
-.footer .footer-content .copy::before {
-    content: " ";
-    width: 100%;
-    height: 1px;
-    left: -5px;
-    background-color: #ccc;
-    position: absolute;
-    z-index: 1;
+@media only screen and (max-width: 480px) {
+    .footer-content .maps iframe{
+        width: 100%;
+    }
 }
