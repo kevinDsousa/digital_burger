@@ -1,0 +1,130 @@
+@import url(./reset.css);
+
+:root {
+    --bg-card: #131212;
+}
+
+section {
+    width: 100%;
+}
+
+.about {
+    padding: 40px 20px;
+    font-family: var(--font-text2);
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: var(--text-color);
+    display: flex;
+    background-image: url("../images/sobre/bgSobre.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about p {
+    margin: 10px
+}
+
+.chef {
+    display: flex;
+    margin: 40px;
+}
+
+.title-text {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: var(--title-color);
+    font-size: 30px;
+    margin: 10px 10px 0 40px;
+}
+
+.chef p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.image-chef img {
+    width: 450px;
+}
+
+.cards:nth-child(odd) {
+    background-image: url("../images/sobre/bgSobre.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-title2);
+    background-color: var(--bg-card);
+}
+
+.cards p {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    width: 50%;
+}
+
+.cards img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+/*Responsividade*/
+
+@media (max-width: 768px)
+{
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .chef {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .image-chef img {
+    width: 300px;
+    margin-bottom: 10px;
+  }
+
+  .title-text {
+    text-align: center;
+  }
+
+  .cards, .cards img {
+    flex-direction: column;
+  }
+
+  .cards > p {
+    font-size: 18px;
+    }
+
+  .cards > img {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+    .about p {
+        font-size: 20px;
+      }
+
+    .cards > p {
+        font-size: 20px;
+    }
+}

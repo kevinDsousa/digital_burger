@@ -226,14 +226,6 @@
     font-weight: 500;
     font-family: var(--font-title2);
 }
-<<<<<<< HEAD
-.offcanvas-title{
-    font-family: var(--font-title2);
-    font-size: 24px;
-}
-@media only screen and (max-width: 768px){
-    .headNav{
-=======
 
 @media only screen and (max-width: 480px){
     .banner-logo{
@@ -262,7 +254,6 @@
     .content{
         width: 500px;
         margin: 10px auto;
->>>>>>> 53ca25ccfefeaf4b28b34c5f4a4b054af9513033
     }
     #combos,
     #entradas,

@@ -28,9 +28,10 @@
     <script src="./assets/js/bebidas.js" defer></script>
     <script src="./assets/js/sobremesas.js" defer></script>
     <script src="assets/js/categorias.js" defer></script>
-    <script src="assets/js/backToTopBtn.js" defer></script>
+    <script src="assets/js/backToTopBtn.js"></script>
     <script src="./assets/js/footer.js" defer></script>
     <script src="./assets/js/header.js" defer></script>
+    <script src="./assets/js/menuHamb.js" defer></script>
 
 
     <title>Digital Burger</title>
@@ -38,11 +39,12 @@
 
 <body>
     <section class="headNav"></section>
+
     <div>
         <header>
+            <div class="navbar">
+            </div>
             <div class="header-banner">
-                <div class="navbar">
-                </div>
                 <div class="image-banner">
                     <img src="https://www.linkpicture.com/q/imagem_2023-02-17_162157369-transformed.png" alt="">
                 </div>
@@ -54,7 +56,7 @@
     </div>
 
     <section>
-        <div class="container row" id="categorias">
+        <div class="container-fluid row" id="categorias">
             <div class="col">
                 <a id="menu" href="#combos"><img src="https://www.linkpicture.com/q/combo-icon.png" alt=""></a>
             </div>
@@ -72,7 +74,7 @@
             </div>
         </div>
     </section>
-    <section class="container produtos">
+    <section class="produtos">
         <h2 class="title">Combos</h2>
         <div id="combos"></div>
 
@@ -87,17 +89,15 @@
 
         <h2 class="title">Sobremesas</h2>
         <div id="sobremesas"></div>
-        
     </section>
     <div class="top-buttonwow">
         <a href="#" id="#botao-voltar-topo" class="btn-back-to-top" title="Voltar ao topo"><i class="bi bi-arrow-up"></i></a>
     </div>
     <section>
-        <footer class="footer" id="footer"></footer>
+        <footer class="footer" id="footer">
+            
+        </footer>
     </section>
-
-        
-    
 </body>
 
 </html>
