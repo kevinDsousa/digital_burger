@@ -1,4 +1,8 @@
 # Digital_Burger
+
+## Status
+![Image](https://user-images.githubusercontent.com/112489062/230792165-150fe0bf-cb3a-4b52-85fd-d48ee38e206f.svg)
+
 Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo uma boa experiência e facilitação no atendimento.
 
 <p align="center">
@@ -9,7 +13,7 @@ Digital Burger um projeto para auxiliar as atividades de restaurantes, trazendo 
 </p>
 
 <br>
-<h2>Scanear QR code para ver o site completo</h2>
+<h2>Scanear o QR code para ver o site completo</h2>
 <img src="./github/QRcode.jpeg">
 
 <br>
