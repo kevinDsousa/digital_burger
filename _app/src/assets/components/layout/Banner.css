@@ -1,0 +1,21 @@
+@import url(../../../App.css);
+
+.db-banner {
+    position: relative;
+}
+
+.db-banner .db-banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.db-banner .db-banner-content p {
+    position: absolute;
+    color: var(--text-color);
+    font-family: var(--font-text);
+    font-size: 20px;
+    font-weight: 600;
+    left: 54%;
+    top: 45%;
+}

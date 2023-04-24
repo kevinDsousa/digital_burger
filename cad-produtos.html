@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/cat-prods.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/images/icos/favicon.ico">
+
+</head>
+
+<body class="dashboard">
+  <header id="header">
+    <h1>Digital Burger</h1>
+    <img src="./assets/images/logo-white.png" alt="">
+    <nav>
+      <ul>
+        <li>
+          <a href="cad-categoria.html">Categorias</a>
+        </li>
+        <li>
+          <a href="cad-produtos.html">Produtos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="d-flex justify-content-between">Lista de produtos <button class="btn btn-primary" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Novo
+            produto</button>
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Icone</th>
+              <th scope="col">Preço</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Categoria</th>
+            </tr>
+          </thead>
+          <tbody id="tabela"></tbody>
+        </table>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Cadastrar</h5>
+            <button type="button" id="cadastro-fechar" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form id="cadastro" onsubmit="adicionarProdutos()">
+              <label class="form-label" for="">Item: </label>
+              <input type="text" id="item" class="form-control" placeholder="Descreva o nome do produto" required />
+
+              <label class="form-label mt-2">Icone: </label>
+              <input type="file" id="imagem" class="form-control" placeholder="Envie uma imagem" required />
+
+              <label class="form-label mt-2">Preço: </label>
+              <input type="tel" id="preco" class="form-control" placeholder="Preço" required />
+
+              <label class="form-label mt-2">Descrição: </label>
+              <input type="text" id="descricao" class="form-control" placeholder="Descrição do produto" required />
+
+              <button type="submit" class="btn btn-primary w-100 mt-3">Enviar</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightEditar"
+          aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Editar</h5>
+            <button type="button" id="editar-fechar" class="btn-close" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <form id="editar" onsubmit="editarProdutos()">
+              <label class="form-label" for="">Item: </label>
+              <input type="text" id="item" class="form-control" placeholder="Descreva o nome do produto" required />
+
+              <label class="form-label mt-2">Icone: </label>
+              <input type="file" id="imagem" class="form-control" placeholder="Envie uma imagem" required />
+
+              <label class="form-label mt-2">Preço: </label>
+              <input type="tel" id="preco" class="form-control" placeholder="Preço" required />
+
+              <label class="form-label mt-2">Descrição: </label>
+              <input type="text" id="descricao" class="form-control" placeholder="Descrição do produto" required />
+
+              <button type="submit" class="btn btn-primary w-100 mt-3">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+    <script src="./assets/js/Cadprodutos.js"></script>
+</body>
+
+</html>

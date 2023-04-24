@@ -1,17 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+
 :root {
-    --font-text : 'Inter', sans-serif;
-    --font-text2: 'Roboto Condensed', sans-serif;
-    --font-title: 'Roboto Condensed', sans-serif;
-    --font-title2: 'Tilt Warp', cursive;
-    --text-color: #fff;
-    --bg-color: #252525;
-    --bg2-color: #FF8233;
-    --dc-color: #C60D66;
-    --title-color: #D62603;
+  --font-text : 'Inter', sans-serif;
+  --font-text2: 'Roboto Condensed', sans-serif;
+  --font-title: 'Roboto Condensed', sans-serif;
+  --font-title2: 'Tilt Warp', cursive;
+  --text-color: #fff;
+  --bg-color: #252525;
+  --bg2-color: #FF8233;
+  --dc-color: #C60D66;
+  --title-color: #D62603;
 }
 
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 *,
 *::before,
@@ -23,8 +24,7 @@
 
 body,
 input {
-  font-family: var(--font-title), sans-serif;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -93,22 +93,20 @@ form.sign-up-form {
 }
 
 .logo img {
-  width: 67px;
+  padding-bottom: 10px;
+  width: 45px;
   margin-right: 0.3rem;
-  margin-bottom: 10px;
 }
 
 .logo h4 {
   font-size: 1.1rem;
   margin-top: -9px;
-  font-family: var(--font-title);
-  font-size: 24px;
   letter-spacing: -0.5px;
   color: #151111;
 }
 
 .heading h2 {
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 600;
   color: #151111;
 }
@@ -228,7 +226,7 @@ main.sign-up-mode .carousel {
   width: 55%;
   left: 45%;
   top: 0;
-  background-color: #FF8233;
+  background-color: #ffe0d2;
   border-radius: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -376,6 +374,10 @@ main.sign-up-mode .carousel {
   .text-slider {
     width: 100%;
   }
+}
+
+.text-group h2 b {
+  color: var(--bg2-color);
 }
 
 @media (max-width: 530px) {

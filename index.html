@@ -16,12 +16,16 @@
     <link href="path/to/bootstrap-icons.css" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./assets/images/icos/favicon.ico">
-    <link rel="stylesheet" href="assets/css/bttbtn.css">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- <link rel="stylesheet" href="assets/css/bttbtn.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/buttongroup.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="assets/js/modal.js" defer></script>
     <script src="./assets/js/entradas.js" defer></script>
     <script src="./assets/js/burgers.js" defer></script>
     <script src="./assets/js/combos.js" defer></script>
@@ -29,8 +33,23 @@
     <script src="./assets/js/sobremesas.js" defer></script>
     <script src="assets/js/categorias.js" defer></script>
     <script src="assets/js/backToTopBtn.js" defer></script>
+
+
     <script src="./assets/js/footer.js" defer></script>
     <script src="./assets/js/header.js" defer></script>
+    <script src="./assets/js/menuHamb.js" defer></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/buttongroup.css">
+    <link rel="stylesheet" href="">
+    <script src="node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="assets/js/modal.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
+
 
 
     <title>Digital Burger</title>
@@ -38,11 +57,12 @@
 
 <body>
     <section class="headNav"></section>
+
     <div>
         <header>
+            <div class="navbar">
+            </div>
             <div class="header-banner">
-                <div class="navbar">
-                </div>
                 <div class="image-banner">
                     <img src="https://www.linkpicture.com/q/imagem_2023-02-17_162157369-transformed.png" alt="">
                 </div>
@@ -54,7 +74,7 @@
     </div>
 
     <section>
-        <div class="container row" id="categorias">
+        <div class="container-fluid row" id="categorias">
             <div class="col">
                 <a id="menu" href="#combos"><img src="https://www.linkpicture.com/q/combo-icon.png" alt=""></a>
             </div>
@@ -72,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section class="container produtos">
+    <section class="produtos">
         <h2 class="title">Combos</h2>
         <div id="combos"></div>
 
@@ -87,17 +107,67 @@
 
         <h2 class="title">Sobremesas</h2>
         <div id="sobremesas"></div>
-        
     </section>
-    <div class="top-buttonwow">
+    <!-- <div class="top-buttonwow">
         <a href="#" id="#botao-voltar-topo" class="btn-back-to-top" title="Voltar ao topo"><i class="bi bi-arrow-up"></i></a>
+    </div> -->
+<section class="aside-bottom-btns">
+    <div class="button-group">
+        <a href="#" id="botao-voltar-topo" class="btn-back-to-top" title="Voltar ao topo"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" id="botao-feedback" class="btn-feedback" title="Feedback" data-toggle="modal" data-target="#feedbackModal"><i class="bi bi-heart"></i></a>
     </div>
-    <section>
-        <footer class="footer" id="footer"></footer>
-    </section>
-
-        
     
+    <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="feedbackModalLabel">Pesquisa de Feedback.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Avalie sua experiência:</p>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="feedbackRadio" id="feedbackRadio1" value="ruim">
+                      <label class="form-check-label" for="feedbackRadio1">
+                        Ruim
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="feedbackRadio" id="feedbackRadio2" value="regular">
+                      <label class="form-check-label" for="feedbackRadio2">
+                        Regular
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="feedbackRadio" id="feedbackRadio3" value="boa">
+                      <label class="form-check-label" for="feedbackRadio3">
+                        Boa
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="feedbackRadio" id="feedbackRadio4" value="excelente">
+                      <label class="form-check-label" for="feedbackRadio4">
+                        Excelente
+                      </label>
+                    </div>
+                    <div class="form-group inputzudo">
+                      <label for="feedbackComments">Observações:</label>
+                      <textarea class="form-control" id="feedbackComments" rows=""></textarea>
+                  </div>
+                  <button class="btn btn-submmit btn-primary right" type="submit">Enviar feedback</button>
+                </div>
+
+            </section>
+
+
+    
+    <section>
+        <footer class="footer" id="footer">
+            
+        </footer>
+    </section>
 </body>
 
 </html>
