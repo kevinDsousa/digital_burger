@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:login/loginn.css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 
@@ -333,49 +334,23 @@ main.sign-up-mode .carousel {
 
   .forms-wrap {
     position: revert;
+========
+@import url("./reset.css");
+
+.container {
+    background-image: url("../images/sobre/bgSobre.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+>>>>>>>> 4542b1e14b699fe03e3d46443eb74a686ebc0409:assets/css/login.css
     width: 100%;
-    height: auto;
-  }
-
-  form {
-    max-width: revert;
-    padding: 1.5rem 2.5rem 2rem;
-    transition: transform 0.8s ease-in-out, opacity 0.45s linear;
-  }
-
-  .heading {
-    margin: 2rem 0;
-  }
-
-  form.sign-up-form {
-    transform: translateX(100%);
-  }
-
-  main.sign-up-mode form.sign-in-form {
-    transform: translateX(-100%);
-  }
-
-  main.sign-up-mode form.sign-up-form {
-    transform: translateX(0%);
-  }
-
-  .carousel {
-    position: revert;
-    height: auto;
-    width: 100%;
-    padding: 3rem 2rem;
+    height: 100vh;
     display: flex;
-  }
-
-  .images-wrapper {
-    display: none;
-  }
-
-  .text-slider {
-    width: 100%;
-  }
+    align-items: center;
+    justify-content: center;
 }
 
+<<<<<<<< HEAD:login/loginn.css
 .text-group h2 b {
   color: var(--bg2-color);
 }
@@ -384,29 +359,62 @@ main.sign-up-mode .carousel {
   main {
     padding: 1rem;
   }
+========
+.content {
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    border-radius: 20px;
+}
+>>>>>>>> 4542b1e14b699fe03e3d46443eb74a686ebc0409:assets/css/login.css
 
-  .box {
-    border-radius: 2rem;
-  }
+.content h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: var(--font-title2);
+    font-size: 26;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
 
-  .inner-box {
-    padding: 1rem;
-  }
+.content div form {
+    display: flex;
+    flex-direction: column;
+}
 
-  .carousel {
-    padding: 1.5rem 1rem;
-    border-radius: 1.6rem;
-  }
+.content div form label {
+    font-size: 13px;
+    margin-bottom: 2px;
+}
 
-  .text-wrap {
-    margin-bottom: 1rem;
-  }
+.content div form input {
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
 
-  .text-group h2 {
-    font-size: 1.2rem;
-  }
-
-  form {
-    padding: 1rem 2rem 1.5rem;
-  }
+.content div form button {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: var(--font-text2) ;
+    font-weight: 400;
+    color: #fff;
+    font-weight: bolder;
+    background-color: var(--title-color);
+    cursor: pointer;
 }
