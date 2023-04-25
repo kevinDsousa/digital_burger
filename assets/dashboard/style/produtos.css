@@ -1,0 +1,212 @@
+@import url(dashboard.css);
+
+:root {
+    --font-text : 'Inter', sans-serif;
+    --font-text2: 'Roboto Condensed', sans-serif;
+    --font-title: 'Roboto Condensed', sans-serif;
+    --font-title2: 'Tilt Warp', cursive;
+    --text-color: #fff;
+    --bg-color: #252525;
+    --bg-light-color: #4f4f4f;
+    --main-dark-color: #ff7925;
+    --main-color: #FF8233;
+    --main-ligh-color: #ff8a41;
+    --dc-color: #C60D66;
+    --title-color: #D62603;
+}
+
+#container h2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+
+#container h2 button:hover{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+#container h2 button{
+    height: 50px;
+    padding: 0 26px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--bg-color);
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color);
+    transition-duration: 300ms;
+}
+
+
+#container .tabela{
+    background-color: #FFFFFF;
+    padding: 26px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px #00000015;
+}
+
+#tabela .acoes{
+    display: flex;
+    gap: 16px;
+}
+
+#tabela .acoes ion-icon{
+    width: 20px;
+    height: 20px;
+    background-color: var(--bg-color);
+    color: #000000;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#lateral{
+    width: 100%;
+    height: 100%;
+    background-color: #00000015;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms ease;
+}
+
+#lateral.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+#lateral .conteudo{
+    width: 400px;
+    height: 100%;
+    background-color: #F5F5F5;
+    position: absolute;
+    padding: 16px;
+    top: 0;
+    right: -100%;
+    transition-delay: 200ms;
+    transition-duration: 300ms;
+}
+
+#lateral.active .conteudo{
+    right: 0;
+}
+
+#lateral h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+}
+
+#lateral h3 ion-icon{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+#lateral h3 ion-icon:hover{
+    background-color: var(--bg-color);
+    color: #FFFFFF;
+}
+
+#lateral form{
+    margin-top: 26px;
+}
+
+#lateral label{
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#lateral input,
+#lateral textarea,
+#lateral select{
+    width: 100%;
+    height: 46px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #DEDEDE;
+    margin-bottom: 16px;
+}
+
+#lateral textarea{
+    padding-top: 10px;
+    resize: none;
+    height: 100px;
+}
+
+#lateral button{
+    width: 100%;
+    height: 46px;
+    background-color: var(--main-ligh-color);
+    border-radius: 5px;
+    transition-duration: 200ms;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#lateral button::after{
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 200ms;
+}
+
+#lateral button:hover::after{
+    width: 100%;
+}
+
+#lateral button span{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    transition-duration: 200ms;
+}
+
+#lateral button span ion-icon{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#lateral button:hover span{
+    color: #FFFFFF;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    color: var(--bg-color);
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 200ms;
+}
+.btn:hover{
+    background-color: var(--bg-color);
+    color: #fff;
+}
+.btn:last-child{
+    margin-left: 16px;
+}

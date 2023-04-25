@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="../style/dashboard.css">
+    <link rel="stylesheet" href="../style/produtos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+      <div class="sidebar-top">
+        <span class="shrink-btn">
+          <i class='bx bx-chevron-left'></i>
+        </span>
+        <img src="../../images/logo-white.png" class="logo" alt="">
+        <h3 class="hide">Digital Burguer</h3>
+      </div>
+  
+      <div class="search">
+        <i class='bx bx-search'></i>
+        <input type="text" class="hide" placeholder="Pesquisa rápida">
+      </div>
+  
+      <div class="sidebar-links">
+        <ul>
+          <div class="active-tab"></div>
+          <li class="tooltip-element" data-tooltip="0">
+            <a href="home.html" class="active" data-active="0">
+              <div class="icon">
+                <i class='bx bx-tachometer'></i>
+                <i class='bx bxs-tachometer'></i>
+              </div>
+              <span class="link hide">Dashboard</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="1">
+            <a href="#" data-active="1">
+              <div class="icon">
+                <i class='bx bx-folder'></i>
+                <i class='bx bxs-folder'></i>
+              </div>
+              <span class="link hide">Categorias</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="2">
+            <a href="produtos.html" data-active="2">
+              <div class="icon">
+                <i class='bx bx-message-square-detail'></i>
+                <i class='bx bxs-message-square-detail'></i>
+              </div>
+              <span class="link hide">Produtos</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="3">
+            <a href="#" data-active="3">
+              <div class="icon">
+                <i class='bx bx-bar-chart-square'></i>
+                <i class='bx bxs-bar-chart-square'></i>
+              </div>
+              <span class="link hide">Relatórios</span>
+            </a>
+          </li>
+          <div class="tooltip">
+            <span class="show">Dashboard</span>
+            <span>Categorias</span>
+            <span>Produtos</span>
+            <span>Relatórios</span>
+          </div>
+        </ul>
+  
+        <h4 class="hide">Shortcuts</h4>
+  
+        <ul>
+          <li class="tooltip-element" data-tooltip="0">
+            <a href="#" data-active="4">
+              <div class="icon">
+                <i class='bx bx-notepad'></i>
+                <i class='bx bxs-notepad'></i>
+              </div>
+              <span class="link hide">Tarefas</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="1">
+            <a href="#" data-active="5">
+              <div class="icon">
+                <i class='bx bx-help-circle'></i>
+                <i class='bx bxs-help-circle'></i>
+              </div>
+              <span class="link hide">Ajuda</span>
+            </a>
+          </li>
+          <li class="tooltip-element" data-tooltip="2">
+            <a href="#" data-active="6">
+              <div class="icon">
+                <i class='bx bx-cog'></i>
+                <i class='bx bxs-cog'></i>
+              </div>
+              <span class="link hide">Configurações</span>
+            </a>
+          </li>
+          <div class="tooltip">
+            <span class="show">Tarefas</span>
+            <span>Ajuda</span>
+            <span>Configurações</span>
+          </div>
+        </ul>
+      </div>
+  
+      <div class="sidebar-footer">
+        <a href="#" class="account tooltip-element" data-tooltip="0">
+          <i class='bx bx-user'></i>
+        </a>
+        <div class="admin-user tooltip-element" data-tooltip="1">
+          <div class="admin-profile hide">
+            <img src="./img/face-1.png" alt="">
+            <div class="admin-info">
+              <h3>Eduardo Pinheiro</h3>
+              <h5>Admin</h5>
+            </div>
+          </div>
+          <a href="#" class="log-out">
+            <i class='bx bx-log-out'></i>
+          </a>
+        </div>
+        <div class="tooltip">
+          <span class="show">Eduardo Pinheiro</span>
+          <span>Sair</span>
+        </div>
+      </div>
+    </nav>
+  
+
+
+
+  
+    <main>
+      <h1>Meu Dashboard</h1>
+      
+      <section id="container">
+        <h2>Produtos <button class="abrir-lateral">Novo produto</button></h2>
+        <div class="tabela">
+            <table id="tabela">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Categoria</th>
+                        <th>Status</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+    <aside id="lateral">
+        <div class="conteudo">
+            <h3>Criar <ion-icon class="fechar-lateral" name="close"></ion-icon></h3>
+            <form onsubmit="addProduto()">
+                <label for="produto">Nome do Produto</label>
+                <input type="text" id="produto" placeholder="Digite a produto" required>
+                <label for="imagem">Imagem</label>
+                <input type="text" id="imagem" placeholder="Link da imagem">
+                <label for="descricao">Descriçao</label>
+                <textarea id="descricao"></textarea>
+                <label for="preco">Preço</label>
+                <input type="number" id="preco" required>
+                <label for="categoria">Categoria</label>
+                <select id="categoria"></select>
+                <button type="submit">
+                    <span>
+                        <ion-icon name="save"></ion-icon> Salvar
+                    </span>
+                </button>
+            </form>
+        </div>
+    </aside>
+
+
+
+
+
+
+
+      <p class="copyright">
+        &copy; 2023 - <span>Digital Burguer</span> All Rights Reserved.
+      </p>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="../js/dashboard.js"></script>
+    <script src="../js/produtos.js"></script>
+    </body>
+</html>
